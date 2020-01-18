@@ -1,0 +1,11 @@
+TARGETS = uuidd unattended-upgrades openvswitch-testcontroller speech-dispatcher openvswitch-switch thermald kerneloops irqbalance alsa-utils ufw whoopsie lightdm bluetooth openvpn cups-browsed resolvconf saned cups plymouth urandom avahi-daemon sendsigs rsyslog umountnfs.sh hwclock.sh networking umountfs umountroot halt reboot
+avahi-daemon: cups-browsed saned
+sendsigs: speech-dispatcher openvswitch-switch cups-browsed plymouth thermald lightdm kerneloops irqbalance alsa-utils bluetooth uuidd avahi-daemon unattended-upgrades openvpn openvswitch-testcontroller
+rsyslog: speech-dispatcher cups-browsed thermald kerneloops irqbalance bluetooth avahi-daemon openvpn sendsigs saned cups whoopsie
+umountnfs.sh: speech-dispatcher openvswitch-switch sendsigs cups-browsed plymouth thermald lightdm kerneloops irqbalance alsa-utils bluetooth uuidd avahi-daemon unattended-upgrades openvpn openvswitch-testcontroller rsyslog
+hwclock.sh: cups-browsed kerneloops uuidd rsyslog
+networking: cups-browsed lightdm kerneloops umountnfs.sh openvpn
+umountfs: speech-dispatcher openvswitch-switch cups-browsed resolvconf plymouth networking thermald lightdm kerneloops umountnfs.sh hwclock.sh irqbalance alsa-utils bluetooth uuidd avahi-daemon unattended-upgrades urandom openvpn openvswitch-testcontroller
+umountroot: umountfs
+halt: umountroot
+reboot: umountroot

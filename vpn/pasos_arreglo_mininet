@@ -1,0 +1,21 @@
+Mi IP: X = 18
+
+Instalar mininet en portatil:
+1. Instalar el mininet que es un paquete de ubuntu sudo apt-get install mininet
+2. bajarse el archivo openvpn-2.2.1, descomprimir y leer el INSTALL
+3. ./configure && make && make-install (hacer el que salta)
+4. Hacer make, sudo make install
+5. abrir vpn.py, cambiar las X por mi numero, cambiar
+/home/sro/lab-openvpn/%(name)s/etc'), /home/sro/lab-openvpn/%(name)s/var/log' por /home/jluzon/path hasta llegar a la carpeta lab-openvpn
+
+sudo ./vpn.py
+
+buscar openvpnswitch
+
+Añadir linea de vpn.py poner "from mininet.node import OVSController"
+en la linea 
+net = mininet(controller=OVSController)
+
+Installar openswitch-testcontroller
+cd /usr/bin
+sudo cp ovs-testcontroller ovs-controller

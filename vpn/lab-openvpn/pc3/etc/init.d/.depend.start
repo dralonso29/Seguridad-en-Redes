@@ -1,0 +1,25 @@
+TARGETS = rsyslog uuidd unattended-upgrades openvswitch-testcontroller killprocs apport speech-dispatcher openvswitch-switch thermald dbus kerneloops irqbalance whoopsie single acpid rsync anacron cron lightdm bluetooth avahi-daemon openvpn cups-browsed saned cups plymouth rc.local grub-common ondemand
+INTERACTIVE = openvpn
+speech-dispatcher: rsyslog
+openvswitch-switch: rsyslog
+thermald: rsyslog
+dbus: rsyslog
+kerneloops: rsyslog
+irqbalance: rsyslog
+whoopsie: rsyslog
+single: killprocs
+acpid: rsyslog
+rsync: rsyslog
+anacron: rsyslog
+cron: rsyslog
+lightdm: dbus acpid
+bluetooth: rsyslog dbus
+avahi-daemon: dbus rsyslog
+openvpn: rsyslog
+cups-browsed: rsyslog
+saned: rsyslog dbus
+cups: rsyslog
+plymouth: speech-dispatcher rsyslog openvswitch-switch cups-browsed thermald lightdm dbus kerneloops irqbalance bluetooth uuidd avahi-daemon unattended-upgrades openvpn openvswitch-testcontroller saned cups whoopsie acpid rsync apport anacron cron
+rc.local: speech-dispatcher rsyslog openvswitch-switch cups-browsed thermald lightdm dbus kerneloops irqbalance bluetooth uuidd avahi-daemon unattended-upgrades openvpn openvswitch-testcontroller saned cups whoopsie acpid rsync apport anacron cron
+grub-common: speech-dispatcher rsyslog openvswitch-switch cups-browsed thermald lightdm dbus kerneloops irqbalance bluetooth uuidd avahi-daemon unattended-upgrades openvpn openvswitch-testcontroller saned cups whoopsie acpid rsync apport anacron cron
+ondemand: speech-dispatcher rsyslog openvswitch-switch cups-browsed thermald lightdm dbus kerneloops irqbalance bluetooth uuidd avahi-daemon unattended-upgrades openvpn openvswitch-testcontroller saned cups whoopsie acpid rsync apport anacron cron

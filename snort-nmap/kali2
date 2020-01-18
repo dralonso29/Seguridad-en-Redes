@@ -1,0 +1,28 @@
+root@kali2:~# ifconfig
+eth0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 10.100.19.2  netmask 255.255.255.0  broadcast 10.100.19.255
+        inet6 fe80::ba27:ebff:fe65:a8e4  prefixlen 64  scopeid 0x20<link>
+        ether b8:27:eb:65:a8:e4  txqueuelen 1000  (Ethernet)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 9  bytes 790 (790.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1  (Local Loopback)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 0  bytes 0 (0.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+wlan0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 10.1.151.224  netmask 255.255.224.0  broadcast 10.1.159.255
+        inet6 fe80::2e0:4cff:fe81:aa0a  prefixlen 64  scopeid 0x20<link>
+        ether 00:e0:4c:81:aa:0a  txqueuelen 1000  (Ethernet)
+        RX packets 5946  bytes 765270 (747.3 KiB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 94  bytes 10589 (10.3 KiB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+

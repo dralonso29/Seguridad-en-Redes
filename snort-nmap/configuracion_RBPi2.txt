@@ -1,0 +1,69 @@
+Ejecuta reboot para que la configuraci´on tenga efecto y vuelve a entrar a trav´es del puerto serie. La
+raspberry se habr´a conectado a la red inal´ambrica eduroam, en su interfaz wlan0. Apunta la direcci´on IP que
+te han asignado por DHCP. Esta direcci´on IP te permitir´a conectarte a la raspberry pi, de forma m´as c´omoda
+y con tantos terminales como necesites, a trav´es de ssh desde tu port´atil que tambi´en deber´a estar´a conectado
+a la red eduroam. Ten en cuenta que cada vez que inicies la raspberry le podr´an asignar una direcci´on IP
+diferente a su interfaz inal´ambrica.
+
+me meto como root en la maquina, con la contraseña adecuada (la por defecto es toor)
+
+kali1
+hago ifconfig y nos saldra algo parecido a esto:
+
+root@kali:~# ifconfig
+eth0: flags=4099<UP,BROADCAST,MULTICAST>  mtu 1500
+        ether b8:27:eb:fe:a1:c6  txqueuelen 1000  (Ethernet)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 0  bytes 0 (0.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1  (Local Loopback)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 0  bytes 0 (0.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+wlan0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 10.0.0.8  netmask 255.255.255.0  broadcast 10.0.0.255
+        inet6 fe80::2e0:4cff:fe81:aa0a  prefixlen 64  scopeid 0x20<link>
+        ether 00:e0:4c:81:aa:0a  txqueuelen 1000  (Ethernet)
+        RX packets 153  bytes 36702 (35.8 KiB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 72  bytes 8212 (8.0 KiB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+en kali2:
+
+root@kali:~# ifconfig
+eth0: flags=4099<UP,BROADCAST,MULTICAST>  mtu 1500
+        inet 10.100.19.2  netmask 255.255.255.0  broadcast 10.100.19.255
+        ether b8:27:eb:65:a8:e4  txqueuelen 1000  (Ethernet)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 0  bytes 0 (0.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1  (Local Loopback)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 0  bytes 0 (0.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+wlan0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 10.0.0.10  netmask 255.255.255.0  broadcast 10.0.0.255
+        inet6 fe80::2e0:4cff:fe81:aa1d  prefixlen 64  scopeid 0x20<link>
+        ether 00:e0:4c:81:aa:1d  txqueuelen 1000  (Ethernet)
+        RX packets 111  bytes 18145 (17.7 KiB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 57  bytes 6542 (6.3 KiB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+
+

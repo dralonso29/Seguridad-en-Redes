@@ -1,0 +1,1424 @@
+Mon Mar 26 21:42:59 2018 us=890559 Current Parameter Settings:
+Mon Mar 26 21:42:59 2018 us=890609   config = 'server.conf'
+Mon Mar 26 21:42:59 2018 us=890619   mode = 1
+Mon Mar 26 21:42:59 2018 us=890626   persist_config = DISABLED
+Mon Mar 26 21:42:59 2018 us=890633   persist_mode = 1
+Mon Mar 26 21:42:59 2018 us=890639   show_ciphers = DISABLED
+Mon Mar 26 21:42:59 2018 us=890645   show_digests = DISABLED
+Mon Mar 26 21:42:59 2018 us=890650   show_engines = DISABLED
+Mon Mar 26 21:42:59 2018 us=890656   genkey = DISABLED
+Mon Mar 26 21:42:59 2018 us=890662   key_pass_file = '[UNDEF]'
+Mon Mar 26 21:42:59 2018 us=890669   show_tls_ciphers = DISABLED
+Mon Mar 26 21:42:59 2018 us=890675 Connection profiles [default]:
+Mon Mar 26 21:42:59 2018 us=890681   proto = udp
+Mon Mar 26 21:42:59 2018 us=890687   local = '[UNDEF]'
+Mon Mar 26 21:42:59 2018 us=890693   local_port = 1194
+Mon Mar 26 21:42:59 2018 us=890699   remote = '[UNDEF]'
+Mon Mar 26 21:42:59 2018 us=890705   remote_port = 1194
+Mon Mar 26 21:42:59 2018 us=890711   remote_float = DISABLED
+Mon Mar 26 21:42:59 2018 us=890717   bind_defined = DISABLED
+Mon Mar 26 21:42:59 2018 us=890723   bind_local = ENABLED
+Mon Mar 26 21:42:59 2018 us=890730   connect_retry_seconds = 5
+Mon Mar 26 21:42:59 2018 us=890736   connect_timeout = 10
+Mon Mar 26 21:42:59 2018 us=890742   connect_retry_max = 0
+Mon Mar 26 21:42:59 2018 us=890748   socks_proxy_server = '[UNDEF]'
+Mon Mar 26 21:42:59 2018 us=890754   socks_proxy_port = 0
+Mon Mar 26 21:42:59 2018 us=890760   socks_proxy_retry = DISABLED
+Mon Mar 26 21:42:59 2018 us=890766 Connection profiles END
+Mon Mar 26 21:42:59 2018 us=890772   remote_random = DISABLED
+Mon Mar 26 21:42:59 2018 us=890778   ipchange = '[UNDEF]'
+Mon Mar 26 21:42:59 2018 us=890784   dev = 'tun'
+Mon Mar 26 21:42:59 2018 us=890790   dev_type = '[UNDEF]'
+Mon Mar 26 21:42:59 2018 us=890796   dev_node = '[UNDEF]'
+Mon Mar 26 21:42:59 2018 us=890802   lladdr = '[UNDEF]'
+Mon Mar 26 21:42:59 2018 us=890808   topology = 3
+Mon Mar 26 21:42:59 2018 us=890814   tun_ipv6 = DISABLED
+Mon Mar 26 21:42:59 2018 us=890820   ifconfig_local = '10.18.8.1'
+Mon Mar 26 21:42:59 2018 us=890826   ifconfig_remote_netmask = '255.255.255.0'
+Mon Mar 26 21:42:59 2018 us=890832   ifconfig_noexec = DISABLED
+Mon Mar 26 21:42:59 2018 us=890838   ifconfig_nowarn = DISABLED
+Mon Mar 26 21:42:59 2018 us=890844   shaper = 0
+Mon Mar 26 21:42:59 2018 us=890850   tun_mtu = 1500
+Mon Mar 26 21:42:59 2018 us=890859   tun_mtu_defined = ENABLED
+Mon Mar 26 21:42:59 2018 us=890866   link_mtu = 1500
+Mon Mar 26 21:42:59 2018 us=890872   link_mtu_defined = DISABLED
+Mon Mar 26 21:42:59 2018 us=890878   tun_mtu_extra = 0
+Mon Mar 26 21:42:59 2018 us=890884   tun_mtu_extra_defined = DISABLED
+Mon Mar 26 21:42:59 2018 us=890890   fragment = 0
+Mon Mar 26 21:42:59 2018 us=890896   mtu_discover_type = -1
+Mon Mar 26 21:42:59 2018 us=890904   mtu_test = 0
+Mon Mar 26 21:42:59 2018 us=890911   mlock = DISABLED
+Mon Mar 26 21:42:59 2018 us=890918   keepalive_ping = 10
+Mon Mar 26 21:42:59 2018 us=890924   keepalive_timeout = 120
+Mon Mar 26 21:42:59 2018 us=890936   inactivity_timeout = 0
+Mon Mar 26 21:42:59 2018 us=890945   ping_send_timeout = 10
+Mon Mar 26 21:42:59 2018 us=890951   ping_rec_timeout = 240
+Mon Mar 26 21:42:59 2018 us=890957   ping_rec_timeout_action = 2
+Mon Mar 26 21:42:59 2018 us=890963   ping_timer_remote = DISABLED
+Mon Mar 26 21:42:59 2018 us=890969   remap_sigusr1 = 0
+Mon Mar 26 21:42:59 2018 us=890975   explicit_exit_notification = 0
+Mon Mar 26 21:42:59 2018 us=890982   persist_tun = ENABLED
+Mon Mar 26 21:42:59 2018 us=890988   persist_local_ip = DISABLED
+Mon Mar 26 21:42:59 2018 us=890994   persist_remote_ip = DISABLED
+Mon Mar 26 21:42:59 2018 us=891000   persist_key = ENABLED
+Mon Mar 26 21:42:59 2018 us=891006   mssfix = 1450
+Mon Mar 26 21:42:59 2018 us=891012   passtos = DISABLED
+Mon Mar 26 21:42:59 2018 us=891018   resolve_retry_seconds = 1000000000
+Mon Mar 26 21:42:59 2018 us=891024   username = '[UNDEF]'
+Mon Mar 26 21:42:59 2018 us=891030   groupname = '[UNDEF]'
+Mon Mar 26 21:42:59 2018 us=891037   chroot_dir = '[UNDEF]'
+Mon Mar 26 21:42:59 2018 us=891048   cd_dir = '[UNDEF]'
+Mon Mar 26 21:42:59 2018 us=891056   writepid = '[UNDEF]'
+Mon Mar 26 21:42:59 2018 us=891062   up_script = '[UNDEF]'
+Mon Mar 26 21:42:59 2018 us=891067   down_script = '[UNDEF]'
+Mon Mar 26 21:42:59 2018 us=891074   down_pre = DISABLED
+Mon Mar 26 21:42:59 2018 us=891080   up_restart = DISABLED
+Mon Mar 26 21:42:59 2018 us=891086   up_delay = DISABLED
+Mon Mar 26 21:42:59 2018 us=891092   daemon = DISABLED
+Mon Mar 26 21:42:59 2018 us=891098   inetd = 0
+Mon Mar 26 21:42:59 2018 us=891104   log = ENABLED
+Mon Mar 26 21:42:59 2018 us=891111   suppress_timestamps = DISABLED
+Mon Mar 26 21:42:59 2018 us=891117   nice = 0
+Mon Mar 26 21:42:59 2018 us=891123   verbosity = 6
+Mon Mar 26 21:42:59 2018 us=891128   mute = 0
+Mon Mar 26 21:42:59 2018 us=891134   gremlin = 0
+Mon Mar 26 21:42:59 2018 us=891141   status_file = '/var/log/openvpn/openvpn-status.log'
+Mon Mar 26 21:42:59 2018 us=891147   status_file_version = 1
+Mon Mar 26 21:42:59 2018 us=891155   status_file_update_freq = 60
+Mon Mar 26 21:42:59 2018 us=891161   occ = ENABLED
+Mon Mar 26 21:42:59 2018 us=891168   rcvbuf = 65536
+Mon Mar 26 21:42:59 2018 us=891174   sndbuf = 65536
+Mon Mar 26 21:42:59 2018 us=891180   sockflags = 0
+Mon Mar 26 21:42:59 2018 us=891187   fast_io = DISABLED
+Mon Mar 26 21:42:59 2018 us=891193   route_script = '[UNDEF]'
+Mon Mar 26 21:42:59 2018 us=891201   route_default_gateway = '[UNDEF]'
+Mon Mar 26 21:42:59 2018 us=891208   route_default_metric = 0
+Mon Mar 26 21:42:59 2018 us=891215   route_noexec = DISABLED
+Mon Mar 26 21:42:59 2018 us=891221   route_delay = 0
+Mon Mar 26 21:42:59 2018 us=891227   route_delay_window = 30
+Mon Mar 26 21:42:59 2018 us=891233   route_delay_defined = DISABLED
+Mon Mar 26 21:42:59 2018 us=891239   route_nopull = DISABLED
+Mon Mar 26 21:42:59 2018 us=891245   route_gateway_via_dhcp = DISABLED
+Mon Mar 26 21:42:59 2018 us=891252   max_routes = 100
+Mon Mar 26 21:42:59 2018 us=891258   allow_pull_fqdn = DISABLED
+Mon Mar 26 21:42:59 2018 us=891265   route 10.18.1.0/255.255.255.0/nil/nil
+Mon Mar 26 21:42:59 2018 us=891271   management_addr = '[UNDEF]'
+Mon Mar 26 21:42:59 2018 us=891277   management_port = 0
+Mon Mar 26 21:42:59 2018 us=891283   management_user_pass = '[UNDEF]'
+Mon Mar 26 21:42:59 2018 us=891289   management_log_history_cache = 250
+Mon Mar 26 21:42:59 2018 us=891295   management_echo_buffer_size = 100
+Mon Mar 26 21:42:59 2018 us=891302   management_write_peer_info_file = '[UNDEF]'
+Mon Mar 26 21:42:59 2018 us=891308   management_client_user = '[UNDEF]'
+Mon Mar 26 21:42:59 2018 us=891314   management_client_group = '[UNDEF]'
+Mon Mar 26 21:42:59 2018 us=891320   management_flags = 0
+Mon Mar 26 21:42:59 2018 us=891326   shared_secret_file = '[UNDEF]'
+Mon Mar 26 21:42:59 2018 us=891332   key_direction = 0
+Mon Mar 26 21:42:59 2018 us=891338   ciphername_defined = ENABLED
+Mon Mar 26 21:42:59 2018 us=891344   ciphername = 'BF-CBC'
+Mon Mar 26 21:42:59 2018 us=891365   authname_defined = ENABLED
+Mon Mar 26 21:42:59 2018 us=891372   authname = 'SHA1'
+Mon Mar 26 21:42:59 2018 us=891380   prng_hash = 'SHA1'
+Mon Mar 26 21:42:59 2018 us=891389   prng_nonce_secret_len = 16
+Mon Mar 26 21:42:59 2018 us=891398   keysize = 0
+Mon Mar 26 21:42:59 2018 us=891405   engine = DISABLED
+Mon Mar 26 21:42:59 2018 us=891412   replay = ENABLED
+Mon Mar 26 21:42:59 2018 us=891418   mute_replay_warnings = DISABLED
+Mon Mar 26 21:42:59 2018 us=891424   replay_window = 64
+Mon Mar 26 21:42:59 2018 us=891432   replay_time = 15
+Mon Mar 26 21:42:59 2018 us=891439   packet_id_file = '[UNDEF]'
+Mon Mar 26 21:42:59 2018 us=891445   use_iv = ENABLED
+Mon Mar 26 21:42:59 2018 us=891452   test_crypto = DISABLED
+Mon Mar 26 21:42:59 2018 us=891462   tls_server = ENABLED
+Mon Mar 26 21:42:59 2018 us=891468   tls_client = DISABLED
+Mon Mar 26 21:42:59 2018 us=891474   key_method = 2
+Mon Mar 26 21:42:59 2018 us=891481   ca_file = '/etc/openvpn/ca.crt'
+Mon Mar 26 21:42:59 2018 us=891488   ca_path = '[UNDEF]'
+Mon Mar 26 21:42:59 2018 us=891494   dh_file = '/etc/openvpn/dh.pem'
+Mon Mar 26 21:42:59 2018 us=891501   cert_file = '/etc/openvpn/r4.crt'
+Mon Mar 26 21:42:59 2018 us=891516   priv_key_file = '/etc/openvpn/r4.key'
+Mon Mar 26 21:42:59 2018 us=891527   pkcs12_file = '[UNDEF]'
+Mon Mar 26 21:42:59 2018 us=891535   cipher_list = '[UNDEF]'
+Mon Mar 26 21:42:59 2018 us=891545   tls_verify = '[UNDEF]'
+Mon Mar 26 21:42:59 2018 us=891555   tls_export_cert = '[UNDEF]'
+Mon Mar 26 21:42:59 2018 us=891562   tls_remote = '[UNDEF]'
+Mon Mar 26 21:42:59 2018 us=891568   crl_file = '[UNDEF]'
+Mon Mar 26 21:42:59 2018 us=891574   ns_cert_type = 0
+Mon Mar 26 21:42:59 2018 us=891580   remote_cert_ku[i] = 0
+Mon Mar 26 21:42:59 2018 us=891586   remote_cert_ku[i] = 0
+Mon Mar 26 21:42:59 2018 us=891591   remote_cert_ku[i] = 0
+Mon Mar 26 21:42:59 2018 us=891597   remote_cert_ku[i] = 0
+Mon Mar 26 21:42:59 2018 us=891603   remote_cert_ku[i] = 0
+Mon Mar 26 21:42:59 2018 us=891608   remote_cert_ku[i] = 0
+Mon Mar 26 21:42:59 2018 us=891614   remote_cert_ku[i] = 0
+Mon Mar 26 21:42:59 2018 us=891620   remote_cert_ku[i] = 0
+Mon Mar 26 21:42:59 2018 us=891625   remote_cert_ku[i] = 0
+Mon Mar 26 21:42:59 2018 us=891631   remote_cert_ku[i] = 0
+Mon Mar 26 21:42:59 2018 us=891637   remote_cert_ku[i] = 0
+Mon Mar 26 21:42:59 2018 us=891643   remote_cert_ku[i] = 0
+Mon Mar 26 21:42:59 2018 us=891649   remote_cert_ku[i] = 0
+Mon Mar 26 21:42:59 2018 us=891655   remote_cert_ku[i] = 0
+Mon Mar 26 21:42:59 2018 us=891660   remote_cert_ku[i] = 0
+Mon Mar 26 21:42:59 2018 us=891666   remote_cert_ku[i] = 0
+Mon Mar 26 21:42:59 2018 us=891672   remote_cert_eku = '[UNDEF]'
+Mon Mar 26 21:42:59 2018 us=891678   tls_timeout = 2
+Mon Mar 26 21:42:59 2018 us=891683   renegotiate_bytes = 0
+Mon Mar 26 21:42:59 2018 us=891689   renegotiate_packets = 0
+Mon Mar 26 21:42:59 2018 us=891695   renegotiate_seconds = 3600
+Mon Mar 26 21:42:59 2018 us=891701   handshake_window = 60
+Mon Mar 26 21:42:59 2018 us=891707   transition_window = 3600
+Mon Mar 26 21:42:59 2018 us=891713   single_session = DISABLED
+Mon Mar 26 21:42:59 2018 us=891719   push_peer_info = DISABLED
+Mon Mar 26 21:42:59 2018 us=891725   tls_exit = DISABLED
+Mon Mar 26 21:42:59 2018 us=891731   tls_auth_file = '[UNDEF]'
+Mon Mar 26 21:42:59 2018 us=891738   server_network = 10.18.8.0
+Mon Mar 26 21:42:59 2018 us=891745   server_netmask = 255.255.255.0
+Mon Mar 26 21:42:59 2018 us=891752   server_bridge_ip = 0.0.0.0
+Mon Mar 26 21:42:59 2018 us=891759   server_bridge_netmask = 0.0.0.0
+Mon Mar 26 21:42:59 2018 us=891765   server_bridge_pool_start = 0.0.0.0
+Mon Mar 26 21:42:59 2018 us=891772   server_bridge_pool_end = 0.0.0.0
+Mon Mar 26 21:42:59 2018 us=891778   push_entry = 'route 10.18.2.0 255.255.255.0'
+Mon Mar 26 21:42:59 2018 us=891784   push_entry = 'route 10.18.1.0 255.255.255.0'
+Mon Mar 26 21:42:59 2018 us=891790   push_entry = 'route-gateway 10.18.8.1'
+Mon Mar 26 21:42:59 2018 us=891797   push_entry = 'topology subnet'
+Mon Mar 26 21:42:59 2018 us=891802   push_entry = 'ping 10'
+Mon Mar 26 21:42:59 2018 us=891808   push_entry = 'ping-restart 120'
+Mon Mar 26 21:42:59 2018 us=891814   ifconfig_pool_defined = ENABLED
+Mon Mar 26 21:42:59 2018 us=891821   ifconfig_pool_start = 10.18.8.2
+Mon Mar 26 21:42:59 2018 us=891828   ifconfig_pool_end = 10.18.8.253
+Mon Mar 26 21:42:59 2018 us=891834   ifconfig_pool_netmask = 255.255.255.0
+Mon Mar 26 21:42:59 2018 us=891840   ifconfig_pool_persist_filename = '/etc/openvpn/ipp.txt'
+Mon Mar 26 21:42:59 2018 us=891846   ifconfig_pool_persist_refresh_freq = 600
+Mon Mar 26 21:42:59 2018 us=891852   n_bcast_buf = 256
+Mon Mar 26 21:42:59 2018 us=891859   tcp_queue_limit = 64
+Mon Mar 26 21:42:59 2018 us=891864   real_hash_size = 256
+Mon Mar 26 21:42:59 2018 us=891870   virtual_hash_size = 256
+Mon Mar 26 21:42:59 2018 us=891876   client_connect_script = '[UNDEF]'
+Mon Mar 26 21:42:59 2018 us=891882   learn_address_script = '[UNDEF]'
+Mon Mar 26 21:42:59 2018 us=891888   client_disconnect_script = '[UNDEF]'
+Mon Mar 26 21:42:59 2018 us=891894   client_config_dir = '/etc/openvpn/ccd'
+Mon Mar 26 21:42:59 2018 us=891900   ccd_exclusive = DISABLED
+Mon Mar 26 21:42:59 2018 us=891906   tmp_dir = '/tmp'
+Mon Mar 26 21:42:59 2018 us=891912   push_ifconfig_defined = DISABLED
+Mon Mar 26 21:42:59 2018 us=891922   push_ifconfig_local = 0.0.0.0
+Mon Mar 26 21:42:59 2018 us=891929   push_ifconfig_remote_netmask = 0.0.0.0
+Mon Mar 26 21:42:59 2018 us=891935   enable_c2c = ENABLED
+Mon Mar 26 21:42:59 2018 us=891941   duplicate_cn = DISABLED
+Mon Mar 26 21:42:59 2018 us=891947   cf_max = 0
+Mon Mar 26 21:42:59 2018 us=891953   cf_per = 0
+Mon Mar 26 21:42:59 2018 us=891959   max_clients = 1024
+Mon Mar 26 21:42:59 2018 us=891965   max_routes_per_client = 256
+Mon Mar 26 21:42:59 2018 us=891971   auth_user_pass_verify_script = '[UNDEF]'
+Mon Mar 26 21:42:59 2018 us=891977   auth_user_pass_verify_script_via_file = DISABLED
+Mon Mar 26 21:42:59 2018 us=891983   ssl_flags = 0
+Mon Mar 26 21:42:59 2018 us=891989   port_share_host = '[UNDEF]'
+Mon Mar 26 21:42:59 2018 us=891995   port_share_port = 0
+Mon Mar 26 21:42:59 2018 us=892001   client = DISABLED
+Mon Mar 26 21:42:59 2018 us=892007   pull = DISABLED
+Mon Mar 26 21:42:59 2018 us=892013   auth_user_pass_file = '[UNDEF]'
+Mon Mar 26 21:42:59 2018 us=892020 OpenVPN 2.2.1 x86_64-unknown-linux-gnu [SSL] [EPOLL] [eurephia] built on Mar 16 2018
+Mon Mar 26 21:42:59 2018 us=892118 NOTE: OpenVPN 2.1 requires '--script-security 2' or higher to call user-defined scripts or executables
+Mon Mar 26 21:42:59 2018 us=892384 Diffie-Hellman initialized with 2048 bit key
+Mon Mar 26 21:43:03 2018 us=589637 WARNING: this configuration may cache passwords in memory -- use the auth-nocache option to prevent this
+Mon Mar 26 21:43:03 2018 us=597440 TLS-Auth MTU parms [ L:1541 D:138 EF:38 EB:0 ET:0 EL:0 ]
+Mon Mar 26 21:43:03 2018 us=597507 Socket Buffers: R=[212992->131072] S=[212992->131072]
+Mon Mar 26 21:43:03 2018 us=597628 ROUTE default_gateway=100.18.4.3
+Mon Mar 26 21:43:03 2018 us=597644 OpenVPN ROUTE: OpenVPN needs a gateway parameter for a --route option and no default was specified by either --route-gateway or --ifconfig options
+Mon Mar 26 21:43:03 2018 us=597650 OpenVPN ROUTE: failed to parse/resolve route for host/network: 10.18.1.0
+Mon Mar 26 21:43:03 2018 us=597896 TUN/TAP device tun0 opened
+Mon Mar 26 21:43:03 2018 us=597914 TUN/TAP TX queue length set to 100
+Mon Mar 26 21:43:03 2018 us=597945 /sbin/ifconfig tun0 10.18.8.1 netmask 255.255.255.0 mtu 1500 broadcast 10.18.8.255
+Mon Mar 26 21:43:03 2018 us=599152 Data Channel MTU parms [ L:1541 D:1450 EF:41 EB:4 ET:0 EL:0 ]
+Mon Mar 26 21:43:03 2018 us=599188 UDPv4 link local (bound): [undef]:1194
+Mon Mar 26 21:43:03 2018 us=599199 UDPv4 link remote: [undef]
+Mon Mar 26 21:43:03 2018 us=599213 MULTI: multi_init called, r=256 v=256
+Mon Mar 26 21:43:03 2018 us=599248 IFCONFIG POOL: base=10.18.8.2 size=252
+Mon Mar 26 21:43:03 2018 us=599271 IFCONFIG POOL LIST
+Mon Mar 26 21:43:03 2018 us=599280 pc3,10.18.8.2
+Mon Mar 26 21:43:03 2018 us=599288 r1,10.18.8.3
+Mon Mar 26 21:43:03 2018 us=599310 Initialization Sequence Completed
+Mon Mar 26 21:43:03 2018 us=599423 Need IPv6 code in mroute_extract_addr_from_packet
+Mon Mar 26 21:43:08 2018 us=39754 Need IPv6 code in mroute_extract_addr_from_packet
+Mon Mar 26 21:43:11 2018 us=935861 MULTI: multi_create_instance called
+Mon Mar 26 21:43:11 2018 us=935918 100.18.7.30:42325 Re-using SSL/TLS context
+Mon Mar 26 21:43:11 2018 us=936026 100.18.7.30:42325 Control Channel MTU parms [ L:1541 D:138 EF:38 EB:0 ET:0 EL:0 ]
+Mon Mar 26 21:43:11 2018 us=936044 100.18.7.30:42325 Data Channel MTU parms [ L:1541 D:1450 EF:41 EB:4 ET:0 EL:0 ]
+Mon Mar 26 21:43:11 2018 us=936085 100.18.7.30:42325 Local Options String: 'V4,dev-type tun,link-mtu 1541,tun-mtu 1500,proto UDPv4,cipher BF-CBC,auth SHA1,keysize 128,key-method 2,tls-server'
+Mon Mar 26 21:43:11 2018 us=936097 100.18.7.30:42325 Expected Remote Options String: 'V4,dev-type tun,link-mtu 1541,tun-mtu 1500,proto UDPv4,cipher BF-CBC,auth SHA1,keysize 128,key-method 2,tls-client'
+Mon Mar 26 21:43:11 2018 us=936118 100.18.7.30:42325 Local Options hash (VER=V4): '239669a8'
+Mon Mar 26 21:43:11 2018 us=936134 100.18.7.30:42325 Expected Remote Options hash (VER=V4): '3514370b'
+Mon Mar 26 21:43:11 2018 us=936169 100.18.7.30:42325 UDPv4 READ [14] from 100.18.7.30:42325: P_CONTROL_HARD_RESET_CLIENT_V2 kid=0 [ ] pid=0 DATA len=0
+Mon Mar 26 21:43:11 2018 us=936195 100.18.7.30:42325 TLS: Initial packet from 100.18.7.30:42325, sid=663b88c9 36350973
+Mon Mar 26 21:43:11 2018 us=936221 100.18.7.30:42325 UDPv4 WRITE [26] to 100.18.7.30:42325: P_CONTROL_HARD_RESET_SERVER_V2 kid=0 [ 0 ] pid=0 DATA len=0
+Mon Mar 26 21:43:11 2018 us=939524 100.18.7.30:42325 UDPv4 READ [22] from 100.18.7.30:42325: P_ACK_V1 kid=0 [ 0 ]
+Mon Mar 26 21:43:11 2018 us=939582 100.18.7.30:42325 UDPv4 READ [114] from 100.18.7.30:42325: P_CONTROL_V1 kid=0 [ ] pid=1 DATA len=100
+Mon Mar 26 21:43:11 2018 us=939623 100.18.7.30:42325 UDPv4 WRITE [22] to 100.18.7.30:42325: P_ACK_V1 kid=0 [ 1 ]
+Mon Mar 26 21:43:11 2018 us=939790 100.18.7.30:42325 UDPv4 READ [111] from 100.18.7.30:42325: P_CONTROL_V1 kid=0 [ ] pid=2 DATA len=97
+Mon Mar 26 21:43:11 2018 us=945716 100.18.7.30:42325 UDPv4 WRITE [126] to 100.18.7.30:42325: P_CONTROL_V1 kid=0 [ 2 ] pid=1 DATA len=100
+Mon Mar 26 21:43:11 2018 us=945808 100.18.7.30:42325 UDPv4 WRITE [114] to 100.18.7.30:42325: P_CONTROL_V1 kid=0 [ ] pid=2 DATA len=100
+Mon Mar 26 21:43:11 2018 us=945857 100.18.7.30:42325 UDPv4 WRITE [114] to 100.18.7.30:42325: P_CONTROL_V1 kid=0 [ ] pid=3 DATA len=100
+Mon Mar 26 21:43:11 2018 us=945895 100.18.7.30:42325 UDPv4 WRITE [114] to 100.18.7.30:42325: P_CONTROL_V1 kid=0 [ ] pid=4 DATA len=100
+Mon Mar 26 21:43:11 2018 us=946116 100.18.7.30:42325 UDPv4 READ [22] from 100.18.7.30:42325: P_ACK_V1 kid=0 [ 1 ]
+Mon Mar 26 21:43:11 2018 us=946150 100.18.7.30:42325 UDPv4 WRITE [114] to 100.18.7.30:42325: P_CONTROL_V1 kid=0 [ ] pid=5 DATA len=100
+Mon Mar 26 21:43:11 2018 us=946198 100.18.7.30:42325 UDPv4 READ [22] from 100.18.7.30:42325: P_ACK_V1 kid=0 [ 2 ]
+Mon Mar 26 21:43:11 2018 us=946223 100.18.7.30:42325 UDPv4 WRITE [114] to 100.18.7.30:42325: P_CONTROL_V1 kid=0 [ ] pid=6 DATA len=100
+Mon Mar 26 21:43:11 2018 us=946264 100.18.7.30:42325 UDPv4 READ [22] from 100.18.7.30:42325: P_ACK_V1 kid=0 [ 3 ]
+Mon Mar 26 21:43:11 2018 us=946288 100.18.7.30:42325 UDPv4 WRITE [114] to 100.18.7.30:42325: P_CONTROL_V1 kid=0 [ ] pid=7 DATA len=100
+Mon Mar 26 21:43:11 2018 us=946321 100.18.7.30:42325 UDPv4 READ [22] from 100.18.7.30:42325: P_ACK_V1 kid=0 [ 4 ]
+Mon Mar 26 21:43:11 2018 us=946337 100.18.7.30:42325 UDPv4 WRITE [114] to 100.18.7.30:42325: P_CONTROL_V1 kid=0 [ ] pid=8 DATA len=100
+Mon Mar 26 21:43:11 2018 us=946364 100.18.7.30:42325 UDPv4 READ [22] from 100.18.7.30:42325: P_ACK_V1 kid=0 [ 5 ]
+Mon Mar 26 21:43:11 2018 us=946381 100.18.7.30:42325 UDPv4 WRITE [114] to 100.18.7.30:42325: P_CONTROL_V1 kid=0 [ ] pid=9 DATA len=100
+Mon Mar 26 21:43:11 2018 us=946408 100.18.7.30:42325 UDPv4 READ [22] from 100.18.7.30:42325: P_ACK_V1 kid=0 [ 6 ]
+Mon Mar 26 21:43:11 2018 us=946424 100.18.7.30:42325 UDPv4 WRITE [114] to 100.18.7.30:42325: P_CONTROL_V1 kid=0 [ ] pid=10 DATA len=100
+Mon Mar 26 21:43:11 2018 us=946451 100.18.7.30:42325 UDPv4 READ [22] from 100.18.7.30:42325: P_ACK_V1 kid=0 [ 7 ]
+Mon Mar 26 21:43:11 2018 us=946469 100.18.7.30:42325 UDPv4 WRITE [114] to 100.18.7.30:42325: P_CONTROL_V1 kid=0 [ ] pid=11 DATA len=100
+Mon Mar 26 21:43:11 2018 us=946507 100.18.7.30:42325 UDPv4 READ [22] from 100.18.7.30:42325: P_ACK_V1 kid=0 [ 8 ]
+Mon Mar 26 21:43:11 2018 us=946531 100.18.7.30:42325 UDPv4 WRITE [114] to 100.18.7.30:42325: P_CONTROL_V1 kid=0 [ ] pid=12 DATA len=100
+Mon Mar 26 21:43:11 2018 us=946570 100.18.7.30:42325 UDPv4 READ [22] from 100.18.7.30:42325: P_ACK_V1 kid=0 [ 9 ]
+Mon Mar 26 21:43:11 2018 us=946595 100.18.7.30:42325 UDPv4 WRITE [114] to 100.18.7.30:42325: P_CONTROL_V1 kid=0 [ ] pid=13 DATA len=100
+Mon Mar 26 21:43:11 2018 us=946647 100.18.7.30:42325 UDPv4 READ [22] from 100.18.7.30:42325: P_ACK_V1 kid=0 [ 10 ]
+Mon Mar 26 21:43:11 2018 us=946674 100.18.7.30:42325 UDPv4 WRITE [114] to 100.18.7.30:42325: P_CONTROL_V1 kid=0 [ ] pid=14 DATA len=100
+Mon Mar 26 21:43:11 2018 us=946717 100.18.7.30:42325 UDPv4 READ [22] from 100.18.7.30:42325: P_ACK_V1 kid=0 [ 11 ]
+Mon Mar 26 21:43:11 2018 us=946738 100.18.7.30:42325 UDPv4 WRITE [114] to 100.18.7.30:42325: P_CONTROL_V1 kid=0 [ ] pid=15 DATA len=100
+Mon Mar 26 21:43:11 2018 us=946785 100.18.7.30:42325 UDPv4 READ [22] from 100.18.7.30:42325: P_ACK_V1 kid=0 [ 12 ]
+Mon Mar 26 21:43:11 2018 us=946811 100.18.7.30:42325 UDPv4 WRITE [114] to 100.18.7.30:42325: P_CONTROL_V1 kid=0 [ ] pid=16 DATA len=100
+Mon Mar 26 21:43:11 2018 us=946861 100.18.7.30:42325 UDPv4 READ [22] from 100.18.7.30:42325: P_ACK_V1 kid=0 [ 13 ]
+Mon Mar 26 21:43:11 2018 us=946884 100.18.7.30:42325 UDPv4 WRITE [114] to 100.18.7.30:42325: P_CONTROL_V1 kid=0 [ ] pid=17 DATA len=100
+Mon Mar 26 21:43:11 2018 us=946918 100.18.7.30:42325 UDPv4 READ [22] from 100.18.7.30:42325: P_ACK_V1 kid=0 [ 14 ]
+Mon Mar 26 21:43:11 2018 us=946937 100.18.7.30:42325 UDPv4 WRITE [114] to 100.18.7.30:42325: P_CONTROL_V1 kid=0 [ ] pid=18 DATA len=100
+Mon Mar 26 21:43:11 2018 us=946990 100.18.7.30:42325 UDPv4 READ [22] from 100.18.7.30:42325: P_ACK_V1 kid=0 [ 15 ]
+Mon Mar 26 21:43:11 2018 us=947018 100.18.7.30:42325 UDPv4 WRITE [114] to 100.18.7.30:42325: P_CONTROL_V1 kid=0 [ ] pid=19 DATA len=100
+Mon Mar 26 21:43:11 2018 us=947063 100.18.7.30:42325 UDPv4 READ [22] from 100.18.7.30:42325: P_ACK_V1 kid=0 [ 16 ]
+Mon Mar 26 21:43:11 2018 us=947086 100.18.7.30:42325 UDPv4 WRITE [114] to 100.18.7.30:42325: P_CONTROL_V1 kid=0 [ ] pid=20 DATA len=100
+Mon Mar 26 21:43:11 2018 us=947123 100.18.7.30:42325 UDPv4 READ [22] from 100.18.7.30:42325: P_ACK_V1 kid=0 [ 17 ]
+Mon Mar 26 21:43:11 2018 us=947145 100.18.7.30:42325 UDPv4 WRITE [114] to 100.18.7.30:42325: P_CONTROL_V1 kid=0 [ ] pid=21 DATA len=100
+Mon Mar 26 21:43:11 2018 us=948000 100.18.7.30:42325 UDPv4 READ [22] from 100.18.7.30:42325: P_ACK_V1 kid=0 [ 18 ]
+Mon Mar 26 21:43:11 2018 us=948044 100.18.7.30:42325 UDPv4 WRITE [114] to 100.18.7.30:42325: P_CONTROL_V1 kid=0 [ ] pid=22 DATA len=100
+Mon Mar 26 21:43:11 2018 us=948098 100.18.7.30:42325 UDPv4 READ [22] from 100.18.7.30:42325: P_ACK_V1 kid=0 [ 19 ]
+Mon Mar 26 21:43:11 2018 us=948122 100.18.7.30:42325 UDPv4 WRITE [114] to 100.18.7.30:42325: P_CONTROL_V1 kid=0 [ ] pid=23 DATA len=100
+Mon Mar 26 21:43:11 2018 us=948159 100.18.7.30:42325 UDPv4 READ [22] from 100.18.7.30:42325: P_ACK_V1 kid=0 [ 20 ]
+Mon Mar 26 21:43:11 2018 us=948181 100.18.7.30:42325 UDPv4 WRITE [114] to 100.18.7.30:42325: P_CONTROL_V1 kid=0 [ ] pid=24 DATA len=100
+Mon Mar 26 21:43:11 2018 us=948216 100.18.7.30:42325 UDPv4 READ [22] from 100.18.7.30:42325: P_ACK_V1 kid=0 [ 21 ]
+Mon Mar 26 21:43:11 2018 us=948238 100.18.7.30:42325 UDPv4 WRITE [114] to 100.18.7.30:42325: P_CONTROL_V1 kid=0 [ ] pid=25 DATA len=100
+Mon Mar 26 21:43:11 2018 us=948273 100.18.7.30:42325 UDPv4 READ [22] from 100.18.7.30:42325: P_ACK_V1 kid=0 [ 22 ]
+Mon Mar 26 21:43:11 2018 us=948294 100.18.7.30:42325 UDPv4 WRITE [109] to 100.18.7.30:42325: P_CONTROL_V1 kid=0 [ ] pid=26 DATA len=95
+Mon Mar 26 21:43:11 2018 us=948330 100.18.7.30:42325 UDPv4 READ [22] from 100.18.7.30:42325: P_ACK_V1 kid=0 [ 23 ]
+Mon Mar 26 21:43:11 2018 us=948352 100.18.7.30:42325 UDPv4 READ [22] from 100.18.7.30:42325: P_ACK_V1 kid=0 [ 24 ]
+Mon Mar 26 21:43:11 2018 us=948421 100.18.7.30:42325 UDPv4 READ [22] from 100.18.7.30:42325: P_ACK_V1 kid=0 [ 25 ]
+Mon Mar 26 21:43:11 2018 us=957834 100.18.7.30:42325 UDPv4 READ [126] from 100.18.7.30:42325: P_CONTROL_V1 kid=0 [ 26 ] pid=3 DATA len=100
+Mon Mar 26 21:43:11 2018 us=957894 100.18.7.30:42325 UDPv4 WRITE [22] to 100.18.7.30:42325: P_ACK_V1 kid=0 [ 3 ]
+Mon Mar 26 21:43:11 2018 us=957957 100.18.7.30:42325 UDPv4 READ [114] from 100.18.7.30:42325: P_CONTROL_V1 kid=0 [ ] pid=4 DATA len=100
+Mon Mar 26 21:43:11 2018 us=957978 100.18.7.30:42325 UDPv4 WRITE [22] to 100.18.7.30:42325: P_ACK_V1 kid=0 [ 4 ]
+Mon Mar 26 21:43:11 2018 us=958219 100.18.7.30:42325 UDPv4 READ [114] from 100.18.7.30:42325: P_CONTROL_V1 kid=0 [ ] pid=5 DATA len=100
+Mon Mar 26 21:43:11 2018 us=958248 100.18.7.30:42325 UDPv4 WRITE [22] to 100.18.7.30:42325: P_ACK_V1 kid=0 [ 5 ]
+Mon Mar 26 21:43:11 2018 us=958280 100.18.7.30:42325 UDPv4 READ [114] from 100.18.7.30:42325: P_CONTROL_V1 kid=0 [ ] pid=6 DATA len=100
+Mon Mar 26 21:43:11 2018 us=958300 100.18.7.30:42325 UDPv4 WRITE [22] to 100.18.7.30:42325: P_ACK_V1 kid=0 [ 6 ]
+Mon Mar 26 21:43:11 2018 us=958339 100.18.7.30:42325 UDPv4 READ [114] from 100.18.7.30:42325: P_CONTROL_V1 kid=0 [ ] pid=7 DATA len=100
+Mon Mar 26 21:43:11 2018 us=958356 100.18.7.30:42325 UDPv4 WRITE [22] to 100.18.7.30:42325: P_ACK_V1 kid=0 [ 7 ]
+Mon Mar 26 21:43:11 2018 us=958380 100.18.7.30:42325 UDPv4 READ [114] from 100.18.7.30:42325: P_CONTROL_V1 kid=0 [ ] pid=8 DATA len=100
+Mon Mar 26 21:43:11 2018 us=958412 100.18.7.30:42325 UDPv4 WRITE [22] to 100.18.7.30:42325: P_ACK_V1 kid=0 [ 8 ]
+Mon Mar 26 21:43:11 2018 us=958434 100.18.7.30:42325 UDPv4 READ [114] from 100.18.7.30:42325: P_CONTROL_V1 kid=0 [ ] pid=9 DATA len=100
+Mon Mar 26 21:43:11 2018 us=958447 100.18.7.30:42325 UDPv4 WRITE [22] to 100.18.7.30:42325: P_ACK_V1 kid=0 [ 9 ]
+Mon Mar 26 21:43:11 2018 us=958469 100.18.7.30:42325 UDPv4 READ [114] from 100.18.7.30:42325: P_CONTROL_V1 kid=0 [ ] pid=10 DATA len=100
+Mon Mar 26 21:43:11 2018 us=958484 100.18.7.30:42325 UDPv4 WRITE [22] to 100.18.7.30:42325: P_ACK_V1 kid=0 [ 10 ]
+Mon Mar 26 21:43:11 2018 us=958505 100.18.7.30:42325 UDPv4 READ [114] from 100.18.7.30:42325: P_CONTROL_V1 kid=0 [ ] pid=11 DATA len=100
+Mon Mar 26 21:43:11 2018 us=958519 100.18.7.30:42325 UDPv4 WRITE [22] to 100.18.7.30:42325: P_ACK_V1 kid=0 [ 11 ]
+Mon Mar 26 21:43:11 2018 us=958547 100.18.7.30:42325 UDPv4 READ [114] from 100.18.7.30:42325: P_CONTROL_V1 kid=0 [ ] pid=12 DATA len=100
+Mon Mar 26 21:43:11 2018 us=958567 100.18.7.30:42325 UDPv4 WRITE [22] to 100.18.7.30:42325: P_ACK_V1 kid=0 [ 12 ]
+Mon Mar 26 21:43:11 2018 us=958624 100.18.7.30:42325 UDPv4 READ [114] from 100.18.7.30:42325: P_CONTROL_V1 kid=0 [ ] pid=13 DATA len=100
+Mon Mar 26 21:43:11 2018 us=958649 100.18.7.30:42325 UDPv4 WRITE [22] to 100.18.7.30:42325: P_ACK_V1 kid=0 [ 13 ]
+Mon Mar 26 21:43:11 2018 us=958694 100.18.7.30:42325 UDPv4 READ [114] from 100.18.7.30:42325: P_CONTROL_V1 kid=0 [ ] pid=14 DATA len=100
+Mon Mar 26 21:43:11 2018 us=958711 100.18.7.30:42325 UDPv4 WRITE [22] to 100.18.7.30:42325: P_ACK_V1 kid=0 [ 14 ]
+Mon Mar 26 21:43:11 2018 us=958755 100.18.7.30:42325 UDPv4 READ [114] from 100.18.7.30:42325: P_CONTROL_V1 kid=0 [ ] pid=15 DATA len=100
+Mon Mar 26 21:43:11 2018 us=958777 100.18.7.30:42325 UDPv4 WRITE [22] to 100.18.7.30:42325: P_ACK_V1 kid=0 [ 15 ]
+Mon Mar 26 21:43:11 2018 us=958831 100.18.7.30:42325 UDPv4 READ [114] from 100.18.7.30:42325: P_CONTROL_V1 kid=0 [ ] pid=16 DATA len=100
+Mon Mar 26 21:43:11 2018 us=958854 100.18.7.30:42325 UDPv4 WRITE [22] to 100.18.7.30:42325: P_ACK_V1 kid=0 [ 16 ]
+Mon Mar 26 21:43:11 2018 us=958903 100.18.7.30:42325 UDPv4 READ [114] from 100.18.7.30:42325: P_CONTROL_V1 kid=0 [ ] pid=17 DATA len=100
+Mon Mar 26 21:43:11 2018 us=958926 100.18.7.30:42325 UDPv4 WRITE [22] to 100.18.7.30:42325: P_ACK_V1 kid=0 [ 17 ]
+Mon Mar 26 21:43:11 2018 us=958974 100.18.7.30:42325 UDPv4 READ [114] from 100.18.7.30:42325: P_CONTROL_V1 kid=0 [ ] pid=18 DATA len=100
+Mon Mar 26 21:43:11 2018 us=958993 100.18.7.30:42325 UDPv4 WRITE [22] to 100.18.7.30:42325: P_ACK_V1 kid=0 [ 18 ]
+Mon Mar 26 21:43:11 2018 us=959031 100.18.7.30:42325 UDPv4 READ [114] from 100.18.7.30:42325: P_CONTROL_V1 kid=0 [ ] pid=19 DATA len=100
+Mon Mar 26 21:43:11 2018 us=959194 100.18.7.30:42325 VERIFY OK: depth=1, /CN=Easy-RSA_CA
+Mon Mar 26 21:43:11 2018 us=959271 100.18.7.30:42325 VERIFY OK: depth=0, /CN=pc3
+Mon Mar 26 21:43:11 2018 us=959291 100.18.7.30:42325 UDPv4 WRITE [22] to 100.18.7.30:42325: P_ACK_V1 kid=0 [ 19 ]
+Mon Mar 26 21:43:11 2018 us=959321 100.18.7.30:42325 UDPv4 READ [114] from 100.18.7.30:42325: P_CONTROL_V1 kid=0 [ ] pid=20 DATA len=100
+Mon Mar 26 21:43:11 2018 us=959336 100.18.7.30:42325 UDPv4 WRITE [22] to 100.18.7.30:42325: P_ACK_V1 kid=0 [ 20 ]
+Mon Mar 26 21:43:11 2018 us=959385 100.18.7.30:42325 UDPv4 READ [114] from 100.18.7.30:42325: P_CONTROL_V1 kid=0 [ ] pid=21 DATA len=100
+Mon Mar 26 21:43:11 2018 us=959405 100.18.7.30:42325 UDPv4 WRITE [22] to 100.18.7.30:42325: P_ACK_V1 kid=0 [ 21 ]
+Mon Mar 26 21:43:11 2018 us=959434 100.18.7.30:42325 UDPv4 READ [114] from 100.18.7.30:42325: P_CONTROL_V1 kid=0 [ ] pid=22 DATA len=100
+Mon Mar 26 21:43:11 2018 us=962539 100.18.7.30:42325 UDPv4 WRITE [22] to 100.18.7.30:42325: P_ACK_V1 kid=0 [ 22 ]
+Mon Mar 26 21:43:11 2018 us=962610 100.18.7.30:42325 UDPv4 READ [114] from 100.18.7.30:42325: P_CONTROL_V1 kid=0 [ ] pid=23 DATA len=100
+Mon Mar 26 21:43:11 2018 us=962637 100.18.7.30:42325 UDPv4 WRITE [22] to 100.18.7.30:42325: P_ACK_V1 kid=0 [ 23 ]
+Mon Mar 26 21:43:11 2018 us=962674 100.18.7.30:42325 UDPv4 READ [114] from 100.18.7.30:42325: P_CONTROL_V1 kid=0 [ ] pid=24 DATA len=100
+Mon Mar 26 21:43:11 2018 us=962697 100.18.7.30:42325 UDPv4 WRITE [22] to 100.18.7.30:42325: P_ACK_V1 kid=0 [ 24 ]
+Mon Mar 26 21:43:11 2018 us=962734 100.18.7.30:42325 UDPv4 READ [93] from 100.18.7.30:42325: P_CONTROL_V1 kid=0 [ ] pid=25 DATA len=79
+Mon Mar 26 21:43:11 2018 us=963146 100.18.7.30:42325 UDPv4 WRITE [126] to 100.18.7.30:42325: P_CONTROL_V1 kid=0 [ 25 ] pid=27 DATA len=100
+Mon Mar 26 21:43:11 2018 us=963203 100.18.7.30:42325 UDPv4 WRITE [114] to 100.18.7.30:42325: P_CONTROL_V1 kid=0 [ ] pid=28 DATA len=100
+Mon Mar 26 21:43:11 2018 us=963236 100.18.7.30:42325 UDPv4 WRITE [114] to 100.18.7.30:42325: P_CONTROL_V1 kid=0 [ ] pid=29 DATA len=100
+Mon Mar 26 21:43:11 2018 us=963268 100.18.7.30:42325 UDPv4 WRITE [114] to 100.18.7.30:42325: P_CONTROL_V1 kid=0 [ ] pid=30 DATA len=100
+Mon Mar 26 21:43:11 2018 us=963305 100.18.7.30:42325 UDPv4 READ [22] from 100.18.7.30:42325: P_ACK_V1 kid=0 [ 27 ]
+Mon Mar 26 21:43:11 2018 us=963323 100.18.7.30:42325 UDPv4 WRITE [114] to 100.18.7.30:42325: P_CONTROL_V1 kid=0 [ ] pid=31 DATA len=100
+Mon Mar 26 21:43:11 2018 us=963400 100.18.7.30:42325 UDPv4 READ [22] from 100.18.7.30:42325: P_ACK_V1 kid=0 [ 28 ]
+Mon Mar 26 21:43:11 2018 us=963420 100.18.7.30:42325 UDPv4 WRITE [114] to 100.18.7.30:42325: P_CONTROL_V1 kid=0 [ ] pid=32 DATA len=100
+Mon Mar 26 21:43:11 2018 us=963456 100.18.7.30:42325 UDPv4 READ [22] from 100.18.7.30:42325: P_ACK_V1 kid=0 [ 29 ]
+Mon Mar 26 21:43:11 2018 us=963472 100.18.7.30:42325 UDPv4 WRITE [114] to 100.18.7.30:42325: P_CONTROL_V1 kid=0 [ ] pid=33 DATA len=100
+Mon Mar 26 21:43:11 2018 us=963510 100.18.7.30:42325 UDPv4 READ [22] from 100.18.7.30:42325: P_ACK_V1 kid=0 [ 30 ]
+Mon Mar 26 21:43:11 2018 us=963526 100.18.7.30:42325 UDPv4 WRITE [114] to 100.18.7.30:42325: P_CONTROL_V1 kid=0 [ ] pid=34 DATA len=100
+Mon Mar 26 21:43:11 2018 us=963564 100.18.7.30:42325 UDPv4 READ [22] from 100.18.7.30:42325: P_ACK_V1 kid=0 [ 31 ]
+Mon Mar 26 21:43:11 2018 us=963586 100.18.7.30:42325 UDPv4 WRITE [114] to 100.18.7.30:42325: P_CONTROL_V1 kid=0 [ ] pid=35 DATA len=100
+Mon Mar 26 21:43:11 2018 us=963617 100.18.7.30:42325 UDPv4 READ [22] from 100.18.7.30:42325: P_ACK_V1 kid=0 [ 32 ]
+Mon Mar 26 21:43:11 2018 us=963632 100.18.7.30:42325 UDPv4 WRITE [114] to 100.18.7.30:42325: P_CONTROL_V1 kid=0 [ ] pid=36 DATA len=100
+Mon Mar 26 21:43:11 2018 us=963667 100.18.7.30:42325 UDPv4 READ [22] from 100.18.7.30:42325: P_ACK_V1 kid=0 [ 33 ]
+Mon Mar 26 21:43:11 2018 us=963685 100.18.7.30:42325 UDPv4 WRITE [96] to 100.18.7.30:42325: P_CONTROL_V1 kid=0 [ ] pid=37 DATA len=82
+Mon Mar 26 21:43:11 2018 us=963720 100.18.7.30:42325 UDPv4 READ [22] from 100.18.7.30:42325: P_ACK_V1 kid=0 [ 34 ]
+Mon Mar 26 21:43:11 2018 us=963906 100.18.7.30:42325 UDPv4 READ [22] from 100.18.7.30:42325: P_ACK_V1 kid=0 [ 35 ]
+Mon Mar 26 21:43:11 2018 us=963928 100.18.7.30:42325 UDPv4 READ [22] from 100.18.7.30:42325: P_ACK_V1 kid=0 [ 36 ]
+Mon Mar 26 21:43:11 2018 us=963976 100.18.7.30:42325 UDPv4 READ [126] from 100.18.7.30:42325: P_CONTROL_V1 kid=0 [ 37 ] pid=26 DATA len=100
+Mon Mar 26 21:43:11 2018 us=964005 100.18.7.30:42325 UDPv4 WRITE [22] to 100.18.7.30:42325: P_ACK_V1 kid=0 [ 26 ]
+Mon Mar 26 21:43:11 2018 us=964044 100.18.7.30:42325 UDPv4 READ [114] from 100.18.7.30:42325: P_CONTROL_V1 kid=0 [ ] pid=27 DATA len=100
+Mon Mar 26 21:43:11 2018 us=964067 100.18.7.30:42325 UDPv4 WRITE [22] to 100.18.7.30:42325: P_ACK_V1 kid=0 [ 27 ]
+Mon Mar 26 21:43:11 2018 us=964104 100.18.7.30:42325 UDPv4 READ [114] from 100.18.7.30:42325: P_CONTROL_V1 kid=0 [ ] pid=28 DATA len=100
+Mon Mar 26 21:43:11 2018 us=964127 100.18.7.30:42325 UDPv4 WRITE [22] to 100.18.7.30:42325: P_ACK_V1 kid=0 [ 28 ]
+Mon Mar 26 21:43:11 2018 us=964168 100.18.7.30:42325 UDPv4 READ [28] from 100.18.7.30:42325: P_CONTROL_V1 kid=0 [ ] pid=29 DATA len=14
+Mon Mar 26 21:43:11 2018 us=964301 100.18.7.30:42325 Data Channel Encrypt: Cipher 'BF-CBC' initialized with 128 bit key
+Mon Mar 26 21:43:11 2018 us=964311 100.18.7.30:42325 Data Channel Encrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+Mon Mar 26 21:43:11 2018 us=964358 100.18.7.30:42325 Data Channel Decrypt: Cipher 'BF-CBC' initialized with 128 bit key
+Mon Mar 26 21:43:11 2018 us=964364 100.18.7.30:42325 Data Channel Decrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+Mon Mar 26 21:43:11 2018 us=964378 100.18.7.30:42325 UDPv4 WRITE [126] to 100.18.7.30:42325: P_CONTROL_V1 kid=0 [ 29 ] pid=38 DATA len=100
+Mon Mar 26 21:43:11 2018 us=964402 100.18.7.30:42325 UDPv4 WRITE [114] to 100.18.7.30:42325: P_CONTROL_V1 kid=0 [ ] pid=39 DATA len=100
+Mon Mar 26 21:43:11 2018 us=964421 100.18.7.30:42325 UDPv4 WRITE [80] to 100.18.7.30:42325: P_CONTROL_V1 kid=0 [ ] pid=40 DATA len=66
+Mon Mar 26 21:43:11 2018 us=964467 100.18.7.30:42325 UDPv4 READ [22] from 100.18.7.30:42325: P_ACK_V1 kid=0 [ 38 ]
+Mon Mar 26 21:43:11 2018 us=964513 100.18.7.30:42325 UDPv4 READ [22] from 100.18.7.30:42325: P_ACK_V1 kid=0 [ 39 ]
+Mon Mar 26 21:43:11 2018 us=964754 100.18.7.30:42325 UDPv4 READ [22] from 100.18.7.30:42325: P_ACK_V1 kid=0 [ 40 ]
+Mon Mar 26 21:43:11 2018 us=964771 100.18.7.30:42325 Control Channel: TLSv1, cipher TLSv1/SSLv3 DHE-RSA-AES256-SHA, 2048 bit RSA
+Mon Mar 26 21:43:11 2018 us=964784 100.18.7.30:42325 [pc3] Peer Connection Initiated with 100.18.7.30:42325
+Mon Mar 26 21:43:11 2018 us=964826 pc3/100.18.7.30:42325 MULTI: Learn: 10.18.8.2 -> pc3/100.18.7.30:42325
+Mon Mar 26 21:43:11 2018 us=964833 pc3/100.18.7.30:42325 MULTI: primary virtual IP for pc3/100.18.7.30:42325: 10.18.8.2
+Mon Mar 26 21:43:14 2018 us=344347 pc3/100.18.7.30:42325 UDPv4 READ [104] from 100.18.7.30:42325: P_CONTROL_V1 kid=0 [ ] pid=30 DATA len=90
+Mon Mar 26 21:43:14 2018 us=344548 pc3/100.18.7.30:42325 PUSH: Received control message: 'PUSH_REQUEST'
+Mon Mar 26 21:43:14 2018 us=344670 pc3/100.18.7.30:42325 SENT CONTROL [pc3]: 'PUSH_REPLY,route 10.18.2.0 255.255.255.0,route 10.18.1.0 255.255.255.0,route-gateway 10.18.8.1,topology subnet,ping 10,ping-restart 120,ifconfig 10.18.8.2 255.255.255.0' (status=1)
+Mon Mar 26 21:43:14 2018 us=344762 pc3/100.18.7.30:42325 UDPv4 WRITE [22] to 100.18.7.30:42325: P_ACK_V1 kid=0 [ 30 ]
+Mon Mar 26 21:43:14 2018 us=345036 pc3/100.18.7.30:42325 UDPv4 WRITE [114] to 100.18.7.30:42325: P_CONTROL_V1 kid=0 [ ] pid=41 DATA len=100
+Mon Mar 26 21:43:14 2018 us=345214 pc3/100.18.7.30:42325 UDPv4 WRITE [114] to 100.18.7.30:42325: P_CONTROL_V1 kid=0 [ ] pid=42 DATA len=100
+Mon Mar 26 21:43:14 2018 us=345378 pc3/100.18.7.30:42325 UDPv4 WRITE [48] to 100.18.7.30:42325: P_CONTROL_V1 kid=0 [ ] pid=43 DATA len=34
+Mon Mar 26 21:43:14 2018 us=345624 pc3/100.18.7.30:42325 UDPv4 READ [22] from 100.18.7.30:42325: P_ACK_V1 kid=0 [ 41 ]
+Mon Mar 26 21:43:14 2018 us=345910 pc3/100.18.7.30:42325 UDPv4 READ [22] from 100.18.7.30:42325: P_ACK_V1 kid=0 [ 42 ]
+Mon Mar 26 21:43:14 2018 us=359520 pc3/100.18.7.30:42325 UDPv4 READ [22] from 100.18.7.30:42325: P_ACK_V1 kid=0 [ 43 ]
+Mon Mar 26 21:43:14 2018 us=359732 pc3/100.18.7.30:42325 UDPv4 READ [85] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=84
+Mon Mar 26 21:43:14 2018 us=359843 pc3/100.18.7.30:42325 Need IPv6 code in mroute_extract_addr_from_packet
+Mon Mar 26 21:43:17 2018 us=3540 Need IPv6 code in mroute_extract_addr_from_packet
+Mon Mar 26 21:43:18 2018 us=536041 pc3/100.18.7.30:42325 UDPv4 READ [85] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=84
+Mon Mar 26 21:43:18 2018 us=536166 pc3/100.18.7.30:42325 Need IPv6 code in mroute_extract_addr_from_packet
+Mon Mar 26 21:43:20 2018 us=144696 MULTI: multi_create_instance called
+Mon Mar 26 21:43:20 2018 us=144733 100.18.2.1:49734 Re-using SSL/TLS context
+Mon Mar 26 21:43:20 2018 us=144795 100.18.2.1:49734 Control Channel MTU parms [ L:1541 D:138 EF:38 EB:0 ET:0 EL:0 ]
+Mon Mar 26 21:43:20 2018 us=144817 100.18.2.1:49734 Data Channel MTU parms [ L:1541 D:1450 EF:41 EB:4 ET:0 EL:0 ]
+Mon Mar 26 21:43:20 2018 us=144849 100.18.2.1:49734 Local Options String: 'V4,dev-type tun,link-mtu 1541,tun-mtu 1500,proto UDPv4,cipher BF-CBC,auth SHA1,keysize 128,key-method 2,tls-server'
+Mon Mar 26 21:43:20 2018 us=144855 100.18.2.1:49734 Expected Remote Options String: 'V4,dev-type tun,link-mtu 1541,tun-mtu 1500,proto UDPv4,cipher BF-CBC,auth SHA1,keysize 128,key-method 2,tls-client'
+Mon Mar 26 21:43:20 2018 us=144867 100.18.2.1:49734 Local Options hash (VER=V4): '239669a8'
+Mon Mar 26 21:43:20 2018 us=144877 100.18.2.1:49734 Expected Remote Options hash (VER=V4): '3514370b'
+Mon Mar 26 21:43:20 2018 us=144895 100.18.2.1:49734 UDPv4 READ [14] from 100.18.2.1:49734: P_CONTROL_HARD_RESET_CLIENT_V2 kid=0 [ ] pid=0 DATA len=0
+Mon Mar 26 21:43:20 2018 us=144905 100.18.2.1:49734 TLS: Initial packet from 100.18.2.1:49734, sid=902f5ec9 0c629f1a
+Mon Mar 26 21:43:20 2018 us=144921 100.18.2.1:49734 UDPv4 WRITE [26] to 100.18.2.1:49734: P_CONTROL_HARD_RESET_SERVER_V2 kid=0 [ 0 ] pid=0 DATA len=0
+Mon Mar 26 21:43:20 2018 us=148239 100.18.2.1:49734 UDPv4 READ [22] from 100.18.2.1:49734: P_ACK_V1 kid=0 [ 0 ]
+Mon Mar 26 21:43:20 2018 us=148294 100.18.2.1:49734 UDPv4 READ [114] from 100.18.2.1:49734: P_CONTROL_V1 kid=0 [ ] pid=1 DATA len=100
+Mon Mar 26 21:43:20 2018 us=148326 100.18.2.1:49734 UDPv4 WRITE [22] to 100.18.2.1:49734: P_ACK_V1 kid=0 [ 1 ]
+Mon Mar 26 21:43:20 2018 us=148374 100.18.2.1:49734 UDPv4 READ [111] from 100.18.2.1:49734: P_CONTROL_V1 kid=0 [ ] pid=2 DATA len=97
+Mon Mar 26 21:43:20 2018 us=153223 100.18.2.1:49734 UDPv4 WRITE [126] to 100.18.2.1:49734: P_CONTROL_V1 kid=0 [ 2 ] pid=1 DATA len=100
+Mon Mar 26 21:43:20 2018 us=153321 100.18.2.1:49734 UDPv4 WRITE [114] to 100.18.2.1:49734: P_CONTROL_V1 kid=0 [ ] pid=2 DATA len=100
+Mon Mar 26 21:43:20 2018 us=153365 100.18.2.1:49734 UDPv4 WRITE [114] to 100.18.2.1:49734: P_CONTROL_V1 kid=0 [ ] pid=3 DATA len=100
+Mon Mar 26 21:43:20 2018 us=153415 100.18.2.1:49734 UDPv4 WRITE [114] to 100.18.2.1:49734: P_CONTROL_V1 kid=0 [ ] pid=4 DATA len=100
+Mon Mar 26 21:43:20 2018 us=153944 100.18.2.1:49734 UDPv4 READ [22] from 100.18.2.1:49734: P_ACK_V1 kid=0 [ 1 ]
+Mon Mar 26 21:43:20 2018 us=153975 100.18.2.1:49734 UDPv4 WRITE [114] to 100.18.2.1:49734: P_CONTROL_V1 kid=0 [ ] pid=5 DATA len=100
+Mon Mar 26 21:43:20 2018 us=154016 100.18.2.1:49734 UDPv4 READ [22] from 100.18.2.1:49734: P_ACK_V1 kid=0 [ 2 ]
+Mon Mar 26 21:43:20 2018 us=154033 100.18.2.1:49734 UDPv4 WRITE [114] to 100.18.2.1:49734: P_CONTROL_V1 kid=0 [ ] pid=6 DATA len=100
+Mon Mar 26 21:43:20 2018 us=154067 100.18.2.1:49734 UDPv4 READ [22] from 100.18.2.1:49734: P_ACK_V1 kid=0 [ 3 ]
+Mon Mar 26 21:43:20 2018 us=154086 100.18.2.1:49734 UDPv4 WRITE [114] to 100.18.2.1:49734: P_CONTROL_V1 kid=0 [ ] pid=7 DATA len=100
+Mon Mar 26 21:43:20 2018 us=154118 100.18.2.1:49734 UDPv4 READ [22] from 100.18.2.1:49734: P_ACK_V1 kid=0 [ 4 ]
+Mon Mar 26 21:43:20 2018 us=154138 100.18.2.1:49734 UDPv4 WRITE [114] to 100.18.2.1:49734: P_CONTROL_V1 kid=0 [ ] pid=8 DATA len=100
+Mon Mar 26 21:43:20 2018 us=154170 100.18.2.1:49734 UDPv4 READ [22] from 100.18.2.1:49734: P_ACK_V1 kid=0 [ 5 ]
+Mon Mar 26 21:43:20 2018 us=154186 100.18.2.1:49734 UDPv4 WRITE [114] to 100.18.2.1:49734: P_CONTROL_V1 kid=0 [ ] pid=9 DATA len=100
+Mon Mar 26 21:43:20 2018 us=154208 100.18.2.1:49734 UDPv4 READ [22] from 100.18.2.1:49734: P_ACK_V1 kid=0 [ 6 ]
+Mon Mar 26 21:43:20 2018 us=154220 100.18.2.1:49734 UDPv4 WRITE [114] to 100.18.2.1:49734: P_CONTROL_V1 kid=0 [ ] pid=10 DATA len=100
+Mon Mar 26 21:43:20 2018 us=154239 100.18.2.1:49734 UDPv4 READ [22] from 100.18.2.1:49734: P_ACK_V1 kid=0 [ 7 ]
+Mon Mar 26 21:43:20 2018 us=154253 100.18.2.1:49734 UDPv4 WRITE [114] to 100.18.2.1:49734: P_CONTROL_V1 kid=0 [ ] pid=11 DATA len=100
+Mon Mar 26 21:43:20 2018 us=154309 100.18.2.1:49734 UDPv4 READ [22] from 100.18.2.1:49734: P_ACK_V1 kid=0 [ 8 ]
+Mon Mar 26 21:43:20 2018 us=154335 100.18.2.1:49734 UDPv4 WRITE [114] to 100.18.2.1:49734: P_CONTROL_V1 kid=0 [ ] pid=12 DATA len=100
+Mon Mar 26 21:43:20 2018 us=154382 100.18.2.1:49734 UDPv4 READ [22] from 100.18.2.1:49734: P_ACK_V1 kid=0 [ 9 ]
+Mon Mar 26 21:43:20 2018 us=154400 100.18.2.1:49734 UDPv4 WRITE [114] to 100.18.2.1:49734: P_CONTROL_V1 kid=0 [ ] pid=13 DATA len=100
+Mon Mar 26 21:43:20 2018 us=154467 100.18.2.1:49734 UDPv4 READ [22] from 100.18.2.1:49734: P_ACK_V1 kid=0 [ 10 ]
+Mon Mar 26 21:43:20 2018 us=154490 100.18.2.1:49734 UDPv4 WRITE [114] to 100.18.2.1:49734: P_CONTROL_V1 kid=0 [ ] pid=14 DATA len=100
+Mon Mar 26 21:43:20 2018 us=154531 100.18.2.1:49734 UDPv4 READ [22] from 100.18.2.1:49734: P_ACK_V1 kid=0 [ 11 ]
+Mon Mar 26 21:43:20 2018 us=154550 100.18.2.1:49734 UDPv4 WRITE [114] to 100.18.2.1:49734: P_CONTROL_V1 kid=0 [ ] pid=15 DATA len=100
+Mon Mar 26 21:43:20 2018 us=154611 100.18.2.1:49734 UDPv4 READ [22] from 100.18.2.1:49734: P_ACK_V1 kid=0 [ 12 ]
+Mon Mar 26 21:43:20 2018 us=154632 100.18.2.1:49734 UDPv4 WRITE [114] to 100.18.2.1:49734: P_CONTROL_V1 kid=0 [ ] pid=16 DATA len=100
+Mon Mar 26 21:43:20 2018 us=154676 100.18.2.1:49734 UDPv4 READ [22] from 100.18.2.1:49734: P_ACK_V1 kid=0 [ 13 ]
+Mon Mar 26 21:43:20 2018 us=154695 100.18.2.1:49734 UDPv4 WRITE [114] to 100.18.2.1:49734: P_CONTROL_V1 kid=0 [ ] pid=17 DATA len=100
+Mon Mar 26 21:43:20 2018 us=154744 100.18.2.1:49734 UDPv4 READ [22] from 100.18.2.1:49734: P_ACK_V1 kid=0 [ 14 ]
+Mon Mar 26 21:43:20 2018 us=154766 100.18.2.1:49734 UDPv4 WRITE [114] to 100.18.2.1:49734: P_CONTROL_V1 kid=0 [ ] pid=18 DATA len=100
+Mon Mar 26 21:43:20 2018 us=154809 100.18.2.1:49734 UDPv4 READ [22] from 100.18.2.1:49734: P_ACK_V1 kid=0 [ 15 ]
+Mon Mar 26 21:43:20 2018 us=154828 100.18.2.1:49734 UDPv4 WRITE [114] to 100.18.2.1:49734: P_CONTROL_V1 kid=0 [ ] pid=19 DATA len=100
+Mon Mar 26 21:43:20 2018 us=154876 100.18.2.1:49734 UDPv4 READ [22] from 100.18.2.1:49734: P_ACK_V1 kid=0 [ 16 ]
+Mon Mar 26 21:43:20 2018 us=154895 100.18.2.1:49734 UDPv4 WRITE [114] to 100.18.2.1:49734: P_CONTROL_V1 kid=0 [ ] pid=20 DATA len=100
+Mon Mar 26 21:43:20 2018 us=154941 100.18.2.1:49734 UDPv4 READ [22] from 100.18.2.1:49734: P_ACK_V1 kid=0 [ 17 ]
+Mon Mar 26 21:43:20 2018 us=154960 100.18.2.1:49734 UDPv4 WRITE [114] to 100.18.2.1:49734: P_CONTROL_V1 kid=0 [ ] pid=21 DATA len=100
+Mon Mar 26 21:43:20 2018 us=155615 100.18.2.1:49734 UDPv4 READ [22] from 100.18.2.1:49734: P_ACK_V1 kid=0 [ 18 ]
+Mon Mar 26 21:43:20 2018 us=155647 100.18.2.1:49734 UDPv4 WRITE [114] to 100.18.2.1:49734: P_CONTROL_V1 kid=0 [ ] pid=22 DATA len=100
+Mon Mar 26 21:43:20 2018 us=155697 100.18.2.1:49734 UDPv4 READ [22] from 100.18.2.1:49734: P_ACK_V1 kid=0 [ 19 ]
+Mon Mar 26 21:43:20 2018 us=155715 100.18.2.1:49734 UDPv4 WRITE [114] to 100.18.2.1:49734: P_CONTROL_V1 kid=0 [ ] pid=23 DATA len=100
+Mon Mar 26 21:43:20 2018 us=155758 100.18.2.1:49734 UDPv4 READ [22] from 100.18.2.1:49734: P_ACK_V1 kid=0 [ 20 ]
+Mon Mar 26 21:43:20 2018 us=155772 100.18.2.1:49734 UDPv4 WRITE [114] to 100.18.2.1:49734: P_CONTROL_V1 kid=0 [ ] pid=24 DATA len=100
+Mon Mar 26 21:43:20 2018 us=155818 100.18.2.1:49734 UDPv4 READ [22] from 100.18.2.1:49734: P_ACK_V1 kid=0 [ 21 ]
+Mon Mar 26 21:43:20 2018 us=155832 100.18.2.1:49734 UDPv4 WRITE [114] to 100.18.2.1:49734: P_CONTROL_V1 kid=0 [ ] pid=25 DATA len=100
+Mon Mar 26 21:43:20 2018 us=155878 100.18.2.1:49734 UDPv4 READ [22] from 100.18.2.1:49734: P_ACK_V1 kid=0 [ 22 ]
+Mon Mar 26 21:43:20 2018 us=155892 100.18.2.1:49734 UDPv4 WRITE [109] to 100.18.2.1:49734: P_CONTROL_V1 kid=0 [ ] pid=26 DATA len=95
+Mon Mar 26 21:43:20 2018 us=155938 100.18.2.1:49734 UDPv4 READ [22] from 100.18.2.1:49734: P_ACK_V1 kid=0 [ 23 ]
+Mon Mar 26 21:43:20 2018 us=155996 100.18.2.1:49734 UDPv4 READ [22] from 100.18.2.1:49734: P_ACK_V1 kid=0 [ 24 ]
+Mon Mar 26 21:43:20 2018 us=156054 100.18.2.1:49734 UDPv4 READ [22] from 100.18.2.1:49734: P_ACK_V1 kid=0 [ 25 ]
+Mon Mar 26 21:43:20 2018 us=163774 100.18.2.1:49734 UDPv4 READ [126] from 100.18.2.1:49734: P_CONTROL_V1 kid=0 [ 26 ] pid=3 DATA len=100
+Mon Mar 26 21:43:20 2018 us=163816 100.18.2.1:49734 UDPv4 WRITE [22] to 100.18.2.1:49734: P_ACK_V1 kid=0 [ 3 ]
+Mon Mar 26 21:43:20 2018 us=163868 100.18.2.1:49734 UDPv4 READ [114] from 100.18.2.1:49734: P_CONTROL_V1 kid=0 [ ] pid=4 DATA len=100
+Mon Mar 26 21:43:20 2018 us=163889 100.18.2.1:49734 UDPv4 WRITE [22] to 100.18.2.1:49734: P_ACK_V1 kid=0 [ 4 ]
+Mon Mar 26 21:43:20 2018 us=163920 100.18.2.1:49734 UDPv4 READ [114] from 100.18.2.1:49734: P_CONTROL_V1 kid=0 [ ] pid=5 DATA len=100
+Mon Mar 26 21:43:20 2018 us=163940 100.18.2.1:49734 UDPv4 WRITE [22] to 100.18.2.1:49734: P_ACK_V1 kid=0 [ 5 ]
+Mon Mar 26 21:43:20 2018 us=163970 100.18.2.1:49734 UDPv4 READ [114] from 100.18.2.1:49734: P_CONTROL_V1 kid=0 [ ] pid=6 DATA len=100
+Mon Mar 26 21:43:20 2018 us=163990 100.18.2.1:49734 UDPv4 WRITE [22] to 100.18.2.1:49734: P_ACK_V1 kid=0 [ 6 ]
+Mon Mar 26 21:43:20 2018 us=164021 100.18.2.1:49734 UDPv4 READ [114] from 100.18.2.1:49734: P_CONTROL_V1 kid=0 [ ] pid=7 DATA len=100
+Mon Mar 26 21:43:20 2018 us=164041 100.18.2.1:49734 UDPv4 WRITE [22] to 100.18.2.1:49734: P_ACK_V1 kid=0 [ 7 ]
+Mon Mar 26 21:43:20 2018 us=164071 100.18.2.1:49734 UDPv4 READ [114] from 100.18.2.1:49734: P_CONTROL_V1 kid=0 [ ] pid=8 DATA len=100
+Mon Mar 26 21:43:20 2018 us=164091 100.18.2.1:49734 UDPv4 WRITE [22] to 100.18.2.1:49734: P_ACK_V1 kid=0 [ 8 ]
+Mon Mar 26 21:43:20 2018 us=164120 100.18.2.1:49734 UDPv4 READ [114] from 100.18.2.1:49734: P_CONTROL_V1 kid=0 [ ] pid=9 DATA len=100
+Mon Mar 26 21:43:20 2018 us=164140 100.18.2.1:49734 UDPv4 WRITE [22] to 100.18.2.1:49734: P_ACK_V1 kid=0 [ 9 ]
+Mon Mar 26 21:43:20 2018 us=164170 100.18.2.1:49734 UDPv4 READ [114] from 100.18.2.1:49734: P_CONTROL_V1 kid=0 [ ] pid=10 DATA len=100
+Mon Mar 26 21:43:20 2018 us=164190 100.18.2.1:49734 UDPv4 WRITE [22] to 100.18.2.1:49734: P_ACK_V1 kid=0 [ 10 ]
+Mon Mar 26 21:43:20 2018 us=164219 100.18.2.1:49734 UDPv4 READ [114] from 100.18.2.1:49734: P_CONTROL_V1 kid=0 [ ] pid=11 DATA len=100
+Mon Mar 26 21:43:20 2018 us=164244 100.18.2.1:49734 UDPv4 WRITE [22] to 100.18.2.1:49734: P_ACK_V1 kid=0 [ 11 ]
+Mon Mar 26 21:43:20 2018 us=164272 100.18.2.1:49734 UDPv4 READ [114] from 100.18.2.1:49734: P_CONTROL_V1 kid=0 [ ] pid=12 DATA len=100
+Mon Mar 26 21:43:20 2018 us=164291 100.18.2.1:49734 UDPv4 WRITE [22] to 100.18.2.1:49734: P_ACK_V1 kid=0 [ 12 ]
+Mon Mar 26 21:43:20 2018 us=164321 100.18.2.1:49734 UDPv4 READ [114] from 100.18.2.1:49734: P_CONTROL_V1 kid=0 [ ] pid=13 DATA len=100
+Mon Mar 26 21:43:20 2018 us=164341 100.18.2.1:49734 UDPv4 WRITE [22] to 100.18.2.1:49734: P_ACK_V1 kid=0 [ 13 ]
+Mon Mar 26 21:43:20 2018 us=164370 100.18.2.1:49734 UDPv4 READ [114] from 100.18.2.1:49734: P_CONTROL_V1 kid=0 [ ] pid=14 DATA len=100
+Mon Mar 26 21:43:20 2018 us=164389 100.18.2.1:49734 UDPv4 WRITE [22] to 100.18.2.1:49734: P_ACK_V1 kid=0 [ 14 ]
+Mon Mar 26 21:43:20 2018 us=164418 100.18.2.1:49734 UDPv4 READ [114] from 100.18.2.1:49734: P_CONTROL_V1 kid=0 [ ] pid=15 DATA len=100
+Mon Mar 26 21:43:20 2018 us=164438 100.18.2.1:49734 UDPv4 WRITE [22] to 100.18.2.1:49734: P_ACK_V1 kid=0 [ 15 ]
+Mon Mar 26 21:43:20 2018 us=164467 100.18.2.1:49734 UDPv4 READ [114] from 100.18.2.1:49734: P_CONTROL_V1 kid=0 [ ] pid=16 DATA len=100
+Mon Mar 26 21:43:20 2018 us=164487 100.18.2.1:49734 UDPv4 WRITE [22] to 100.18.2.1:49734: P_ACK_V1 kid=0 [ 16 ]
+Mon Mar 26 21:43:20 2018 us=164517 100.18.2.1:49734 UDPv4 READ [114] from 100.18.2.1:49734: P_CONTROL_V1 kid=0 [ ] pid=17 DATA len=100
+Mon Mar 26 21:43:20 2018 us=164536 100.18.2.1:49734 UDPv4 WRITE [22] to 100.18.2.1:49734: P_ACK_V1 kid=0 [ 17 ]
+Mon Mar 26 21:43:20 2018 us=164565 100.18.2.1:49734 UDPv4 READ [114] from 100.18.2.1:49734: P_CONTROL_V1 kid=0 [ ] pid=18 DATA len=100
+Mon Mar 26 21:43:20 2018 us=164585 100.18.2.1:49734 UDPv4 WRITE [22] to 100.18.2.1:49734: P_ACK_V1 kid=0 [ 18 ]
+Mon Mar 26 21:43:20 2018 us=164615 100.18.2.1:49734 UDPv4 READ [114] from 100.18.2.1:49734: P_CONTROL_V1 kid=0 [ ] pid=19 DATA len=100
+Mon Mar 26 21:43:20 2018 us=164778 100.18.2.1:49734 VERIFY OK: depth=1, /CN=Easy-RSA_CA
+Mon Mar 26 21:43:20 2018 us=164851 100.18.2.1:49734 VERIFY OK: depth=0, /CN=r1
+Mon Mar 26 21:43:20 2018 us=164871 100.18.2.1:49734 UDPv4 WRITE [22] to 100.18.2.1:49734: P_ACK_V1 kid=0 [ 19 ]
+Mon Mar 26 21:43:20 2018 us=164908 100.18.2.1:49734 UDPv4 READ [114] from 100.18.2.1:49734: P_CONTROL_V1 kid=0 [ ] pid=20 DATA len=100
+Mon Mar 26 21:43:20 2018 us=164929 100.18.2.1:49734 UDPv4 WRITE [22] to 100.18.2.1:49734: P_ACK_V1 kid=0 [ 20 ]
+Mon Mar 26 21:43:20 2018 us=164962 100.18.2.1:49734 UDPv4 READ [114] from 100.18.2.1:49734: P_CONTROL_V1 kid=0 [ ] pid=21 DATA len=100
+Mon Mar 26 21:43:20 2018 us=164982 100.18.2.1:49734 UDPv4 WRITE [22] to 100.18.2.1:49734: P_ACK_V1 kid=0 [ 21 ]
+Mon Mar 26 21:43:20 2018 us=165013 100.18.2.1:49734 UDPv4 READ [114] from 100.18.2.1:49734: P_CONTROL_V1 kid=0 [ ] pid=22 DATA len=100
+Mon Mar 26 21:43:20 2018 us=167752 100.18.2.1:49734 UDPv4 WRITE [22] to 100.18.2.1:49734: P_ACK_V1 kid=0 [ 22 ]
+Mon Mar 26 21:43:20 2018 us=167789 100.18.2.1:49734 UDPv4 READ [114] from 100.18.2.1:49734: P_CONTROL_V1 kid=0 [ ] pid=23 DATA len=100
+Mon Mar 26 21:43:20 2018 us=167811 100.18.2.1:49734 UDPv4 WRITE [22] to 100.18.2.1:49734: P_ACK_V1 kid=0 [ 23 ]
+Mon Mar 26 21:43:20 2018 us=167840 100.18.2.1:49734 UDPv4 READ [114] from 100.18.2.1:49734: P_CONTROL_V1 kid=0 [ ] pid=24 DATA len=100
+Mon Mar 26 21:43:20 2018 us=167860 100.18.2.1:49734 UDPv4 WRITE [22] to 100.18.2.1:49734: P_ACK_V1 kid=0 [ 24 ]
+Mon Mar 26 21:43:20 2018 us=167887 100.18.2.1:49734 UDPv4 READ [91] from 100.18.2.1:49734: P_CONTROL_V1 kid=0 [ ] pid=25 DATA len=77
+Mon Mar 26 21:43:20 2018 us=168116 100.18.2.1:49734 UDPv4 WRITE [126] to 100.18.2.1:49734: P_CONTROL_V1 kid=0 [ 25 ] pid=27 DATA len=100
+Mon Mar 26 21:43:20 2018 us=168155 100.18.2.1:49734 UDPv4 WRITE [114] to 100.18.2.1:49734: P_CONTROL_V1 kid=0 [ ] pid=28 DATA len=100
+Mon Mar 26 21:43:20 2018 us=168182 100.18.2.1:49734 UDPv4 WRITE [114] to 100.18.2.1:49734: P_CONTROL_V1 kid=0 [ ] pid=29 DATA len=100
+Mon Mar 26 21:43:20 2018 us=168206 100.18.2.1:49734 UDPv4 WRITE [114] to 100.18.2.1:49734: P_CONTROL_V1 kid=0 [ ] pid=30 DATA len=100
+Mon Mar 26 21:43:20 2018 us=168252 100.18.2.1:49734 UDPv4 READ [22] from 100.18.2.1:49734: P_ACK_V1 kid=0 [ 27 ]
+Mon Mar 26 21:43:20 2018 us=168271 100.18.2.1:49734 UDPv4 WRITE [114] to 100.18.2.1:49734: P_CONTROL_V1 kid=0 [ ] pid=31 DATA len=100
+Mon Mar 26 21:43:20 2018 us=168302 100.18.2.1:49734 UDPv4 READ [22] from 100.18.2.1:49734: P_ACK_V1 kid=0 [ 28 ]
+Mon Mar 26 21:43:20 2018 us=168315 100.18.2.1:49734 UDPv4 WRITE [114] to 100.18.2.1:49734: P_CONTROL_V1 kid=0 [ ] pid=32 DATA len=100
+Mon Mar 26 21:43:20 2018 us=168333 100.18.2.1:49734 UDPv4 READ [22] from 100.18.2.1:49734: P_ACK_V1 kid=0 [ 29 ]
+Mon Mar 26 21:43:20 2018 us=168343 100.18.2.1:49734 UDPv4 WRITE [114] to 100.18.2.1:49734: P_CONTROL_V1 kid=0 [ ] pid=33 DATA len=100
+Mon Mar 26 21:43:20 2018 us=168360 100.18.2.1:49734 UDPv4 READ [22] from 100.18.2.1:49734: P_ACK_V1 kid=0 [ 30 ]
+Mon Mar 26 21:43:20 2018 us=168374 100.18.2.1:49734 UDPv4 WRITE [114] to 100.18.2.1:49734: P_CONTROL_V1 kid=0 [ ] pid=34 DATA len=100
+Mon Mar 26 21:43:20 2018 us=168409 100.18.2.1:49734 UDPv4 READ [22] from 100.18.2.1:49734: P_ACK_V1 kid=0 [ 31 ]
+Mon Mar 26 21:43:20 2018 us=168421 100.18.2.1:49734 UDPv4 WRITE [114] to 100.18.2.1:49734: P_CONTROL_V1 kid=0 [ ] pid=35 DATA len=100
+Mon Mar 26 21:43:20 2018 us=168457 100.18.2.1:49734 UDPv4 READ [22] from 100.18.2.1:49734: P_ACK_V1 kid=0 [ 32 ]
+Mon Mar 26 21:43:20 2018 us=168468 100.18.2.1:49734 UDPv4 WRITE [114] to 100.18.2.1:49734: P_CONTROL_V1 kid=0 [ ] pid=36 DATA len=100
+Mon Mar 26 21:43:20 2018 us=168487 100.18.2.1:49734 UDPv4 READ [22] from 100.18.2.1:49734: P_ACK_V1 kid=0 [ 33 ]
+Mon Mar 26 21:43:20 2018 us=168497 100.18.2.1:49734 UDPv4 WRITE [96] to 100.18.2.1:49734: P_CONTROL_V1 kid=0 [ ] pid=37 DATA len=82
+Mon Mar 26 21:43:20 2018 us=168536 100.18.2.1:49734 UDPv4 READ [22] from 100.18.2.1:49734: P_ACK_V1 kid=0 [ 34 ]
+Mon Mar 26 21:43:20 2018 us=168583 100.18.2.1:49734 UDPv4 READ [22] from 100.18.2.1:49734: P_ACK_V1 kid=0 [ 35 ]
+Mon Mar 26 21:43:20 2018 us=168632 100.18.2.1:49734 UDPv4 READ [22] from 100.18.2.1:49734: P_ACK_V1 kid=0 [ 36 ]
+Mon Mar 26 21:43:20 2018 us=168766 100.18.2.1:49734 UDPv4 READ [126] from 100.18.2.1:49734: P_CONTROL_V1 kid=0 [ 37 ] pid=26 DATA len=100
+Mon Mar 26 21:43:20 2018 us=168789 100.18.2.1:49734 UDPv4 WRITE [22] to 100.18.2.1:49734: P_ACK_V1 kid=0 [ 26 ]
+Mon Mar 26 21:43:20 2018 us=168813 100.18.2.1:49734 UDPv4 READ [114] from 100.18.2.1:49734: P_CONTROL_V1 kid=0 [ ] pid=27 DATA len=100
+Mon Mar 26 21:43:20 2018 us=168824 100.18.2.1:49734 UDPv4 WRITE [22] to 100.18.2.1:49734: P_ACK_V1 kid=0 [ 27 ]
+Mon Mar 26 21:43:20 2018 us=168844 100.18.2.1:49734 UDPv4 READ [114] from 100.18.2.1:49734: P_CONTROL_V1 kid=0 [ ] pid=28 DATA len=100
+Mon Mar 26 21:43:20 2018 us=168855 100.18.2.1:49734 UDPv4 WRITE [22] to 100.18.2.1:49734: P_ACK_V1 kid=0 [ 28 ]
+Mon Mar 26 21:43:20 2018 us=168874 100.18.2.1:49734 UDPv4 READ [28] from 100.18.2.1:49734: P_CONTROL_V1 kid=0 [ ] pid=29 DATA len=14
+Mon Mar 26 21:43:20 2018 us=168981 100.18.2.1:49734 Data Channel Encrypt: Cipher 'BF-CBC' initialized with 128 bit key
+Mon Mar 26 21:43:20 2018 us=168991 100.18.2.1:49734 Data Channel Encrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+Mon Mar 26 21:43:20 2018 us=169036 100.18.2.1:49734 Data Channel Decrypt: Cipher 'BF-CBC' initialized with 128 bit key
+Mon Mar 26 21:43:20 2018 us=169045 100.18.2.1:49734 Data Channel Decrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+Mon Mar 26 21:43:20 2018 us=169063 100.18.2.1:49734 UDPv4 WRITE [126] to 100.18.2.1:49734: P_CONTROL_V1 kid=0 [ 29 ] pid=38 DATA len=100
+Mon Mar 26 21:43:20 2018 us=169095 100.18.2.1:49734 UDPv4 WRITE [114] to 100.18.2.1:49734: P_CONTROL_V1 kid=0 [ ] pid=39 DATA len=100
+Mon Mar 26 21:43:20 2018 us=169119 100.18.2.1:49734 UDPv4 WRITE [80] to 100.18.2.1:49734: P_CONTROL_V1 kid=0 [ ] pid=40 DATA len=66
+Mon Mar 26 21:43:20 2018 us=169166 100.18.2.1:49734 UDPv4 READ [22] from 100.18.2.1:49734: P_ACK_V1 kid=0 [ 38 ]
+Mon Mar 26 21:43:20 2018 us=169215 100.18.2.1:49734 UDPv4 READ [22] from 100.18.2.1:49734: P_ACK_V1 kid=0 [ 39 ]
+Mon Mar 26 21:43:20 2018 us=169468 100.18.2.1:49734 UDPv4 READ [22] from 100.18.2.1:49734: P_ACK_V1 kid=0 [ 40 ]
+Mon Mar 26 21:43:20 2018 us=169483 100.18.2.1:49734 Control Channel: TLSv1, cipher TLSv1/SSLv3 DHE-RSA-AES256-SHA, 2048 bit RSA
+Mon Mar 26 21:43:20 2018 us=169500 100.18.2.1:49734 [r1] Peer Connection Initiated with 100.18.2.1:49734
+Mon Mar 26 21:43:20 2018 us=169532 r1/100.18.2.1:49734 OPTIONS IMPORT: reading client specific options from: /etc/openvpn/ccd/r1
+Mon Mar 26 21:43:20 2018 us=169596 r1/100.18.2.1:49734 MULTI: Learn: 10.18.8.3 -> r1/100.18.2.1:49734
+Mon Mar 26 21:43:20 2018 us=169612 r1/100.18.2.1:49734 MULTI: primary virtual IP for r1/100.18.2.1:49734: 10.18.8.3
+Mon Mar 26 21:43:20 2018 us=169623 r1/100.18.2.1:49734 MULTI: internal route 10.18.1.0/24 -> r1/100.18.2.1:49734
+Mon Mar 26 21:43:20 2018 us=169633 r1/100.18.2.1:49734 MULTI: Learn: 10.18.1.0/24 -> r1/100.18.2.1:49734
+Mon Mar 26 21:43:20 2018 us=169646 r1/100.18.2.1:49734 REMOVE PUSH ROUTE: 'route 10.18.1.0 255.255.255.0'
+Mon Mar 26 21:43:22 2018 us=290712 r1/100.18.2.1:49734 UDPv4 READ [104] from 100.18.2.1:49734: P_CONTROL_V1 kid=0 [ ] pid=30 DATA len=90
+Mon Mar 26 21:43:22 2018 us=290978 r1/100.18.2.1:49734 PUSH: Received control message: 'PUSH_REQUEST'
+Mon Mar 26 21:43:22 2018 us=291121 r1/100.18.2.1:49734 SENT CONTROL [r1]: 'PUSH_REPLY,route 10.18.2.0 255.255.255.0,route-gateway 10.18.8.1,topology subnet,ping 10,ping-restart 120,ifconfig 10.18.8.3 255.255.255.0' (status=1)
+Mon Mar 26 21:43:22 2018 us=291228 r1/100.18.2.1:49734 UDPv4 WRITE [22] to 100.18.2.1:49734: P_ACK_V1 kid=0 [ 30 ]
+Mon Mar 26 21:43:22 2018 us=291571 r1/100.18.2.1:49734 UDPv4 WRITE [114] to 100.18.2.1:49734: P_CONTROL_V1 kid=0 [ ] pid=41 DATA len=100
+Mon Mar 26 21:43:22 2018 us=291725 r1/100.18.2.1:49734 UDPv4 WRITE [114] to 100.18.2.1:49734: P_CONTROL_V1 kid=0 [ ] pid=42 DATA len=100
+Mon Mar 26 21:43:22 2018 us=291863 r1/100.18.2.1:49734 UDPv4 WRITE [16] to 100.18.2.1:49734: P_CONTROL_V1 kid=0 [ ] pid=43 DATA len=2
+Mon Mar 26 21:43:22 2018 us=292791 r1/100.18.2.1:49734 UDPv4 READ [22] from 100.18.2.1:49734: P_ACK_V1 kid=0 [ 41 ]
+Mon Mar 26 21:43:22 2018 us=293101 r1/100.18.2.1:49734 UDPv4 READ [22] from 100.18.2.1:49734: P_ACK_V1 kid=0 [ 42 ]
+Mon Mar 26 21:43:22 2018 us=298579 r1/100.18.2.1:49734 UDPv4 READ [22] from 100.18.2.1:49734: P_ACK_V1 kid=0 [ 43 ]
+Mon Mar 26 21:43:22 2018 us=299393 r1/100.18.2.1:49734 UDPv4 READ [85] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=84
+Mon Mar 26 21:43:22 2018 us=299432 r1/100.18.2.1:49734 Need IPv6 code in mroute_extract_addr_from_packet
+Mon Mar 26 21:43:24 2018 us=431772 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:43:26 2018 us=471962 r1/100.18.2.1:49734 UDPv4 READ [85] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=84
+Mon Mar 26 21:43:26 2018 us=472080 r1/100.18.2.1:49734 Need IPv6 code in mroute_extract_addr_from_packet
+Mon Mar 26 21:43:26 2018 us=728049 pc3/100.18.7.30:42325 UDPv4 READ [85] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=84
+Mon Mar 26 21:43:26 2018 us=728199 pc3/100.18.7.30:42325 Need IPv6 code in mroute_extract_addr_from_packet
+Mon Mar 26 21:43:32 2018 us=734160 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:43:34 2018 us=860110 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:43:34 2018 us=919725 r1/100.18.2.1:49734 UDPv4 READ [85] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=84
+Mon Mar 26 21:43:34 2018 us=919801 r1/100.18.2.1:49734 Need IPv6 code in mroute_extract_addr_from_packet
+Mon Mar 26 21:43:35 2018 us=431873 Need IPv6 code in mroute_extract_addr_from_packet
+Mon Mar 26 21:43:36 2018 us=994329 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:43:37 2018 us=591876 r1/100.18.2.1:49734 UDPv4 READ [125] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=124
+Mon Mar 26 21:43:37 2018 us=591923 r1/100.18.2.1:49734 MULTI: Learn: 10.18.1.10 -> r1/100.18.2.1:49734
+Mon Mar 26 21:43:37 2018 us=591956 r1/100.18.2.1:49734 TUN WRITE [84]
+Mon Mar 26 21:43:38 2018 us=602114 r1/100.18.2.1:49734 UDPv4 READ [125] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=124
+Mon Mar 26 21:43:38 2018 us=602268 r1/100.18.2.1:49734 TUN WRITE [84]
+Mon Mar 26 21:43:39 2018 us=626142 r1/100.18.2.1:49734 UDPv4 READ [125] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=124
+Mon Mar 26 21:43:39 2018 us=626307 r1/100.18.2.1:49734 TUN WRITE [84]
+Mon Mar 26 21:43:42 2018 us=344251 pc3/100.18.7.30:42325 UDPv4 READ [85] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=84
+Mon Mar 26 21:43:42 2018 us=344428 pc3/100.18.7.30:42325 Need IPv6 code in mroute_extract_addr_from_packet
+Mon Mar 26 21:43:42 2018 us=357916 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:43:44 2018 us=409306 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:43:49 2018 us=523976 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:43:51 2018 us=816038 r1/100.18.2.1:49734 UDPv4 READ [85] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=84
+Mon Mar 26 21:43:51 2018 us=816195 r1/100.18.2.1:49734 Need IPv6 code in mroute_extract_addr_from_packet
+Mon Mar 26 21:43:52 2018 us=681594 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:43:52 2018 us=722973 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:43:54 2018 us=810696 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:44:02 2018 us=174255 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:44:02 2018 us=174475 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:44:03 2018 us=187862 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:44:04 2018 us=190302 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:44:08 2018 us=199796 Need IPv6 code in mroute_extract_addr_from_packet
+Mon Mar 26 21:44:12 2018 us=321379 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:44:12 2018 us=323900 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:44:13 2018 us=349082 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:44:14 2018 us=446701 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:44:16 2018 us=392191 pc3/100.18.7.30:42325 UDPv4 READ [85] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=84
+Mon Mar 26 21:44:16 2018 us=392354 pc3/100.18.7.30:42325 Need IPv6 code in mroute_extract_addr_from_packet
+Mon Mar 26 21:44:22 2018 us=445874 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:44:22 2018 us=446109 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:44:24 2018 us=516587 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:44:24 2018 us=584280 r1/100.18.2.1:49734 UDPv4 READ [85] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=84
+Mon Mar 26 21:44:24 2018 us=584399 r1/100.18.2.1:49734 Need IPv6 code in mroute_extract_addr_from_packet
+Mon Mar 26 21:44:26 2018 us=747024 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:44:28 2018 us=249336 pc3/100.18.7.30:42325 UDPv4 READ [125] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=124
+Mon Mar 26 21:44:28 2018 us=249404 r1/100.18.2.1:49734 UDPv4 WRITE [125] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=124
+Mon Mar 26 21:44:28 2018 us=251540 r1/100.18.2.1:49734 UDPv4 READ [125] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=124
+Mon Mar 26 21:44:28 2018 us=251597 pc3/100.18.7.30:42325 UDPv4 WRITE [125] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=124
+Mon Mar 26 21:44:29 2018 us=251973 pc3/100.18.7.30:42325 UDPv4 READ [125] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=124
+Mon Mar 26 21:44:29 2018 us=252255 r1/100.18.2.1:49734 UDPv4 WRITE [125] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=124
+Mon Mar 26 21:44:29 2018 us=254267 r1/100.18.2.1:49734 UDPv4 READ [125] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=124
+Mon Mar 26 21:44:29 2018 us=254467 pc3/100.18.7.30:42325 UDPv4 WRITE [125] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=124
+Mon Mar 26 21:44:30 2018 us=253944 pc3/100.18.7.30:42325 UDPv4 READ [125] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=124
+Mon Mar 26 21:44:30 2018 us=254214 r1/100.18.2.1:49734 UDPv4 WRITE [125] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=124
+Mon Mar 26 21:44:30 2018 us=255273 r1/100.18.2.1:49734 UDPv4 READ [125] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=124
+Mon Mar 26 21:44:30 2018 us=255606 pc3/100.18.7.30:42325 UDPv4 WRITE [125] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=124
+Mon Mar 26 21:44:40 2018 us=409229 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:44:40 2018 us=409369 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:44:40 2018 us=518653 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:44:40 2018 us=519388 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:44:50 2018 us=488148 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:44:50 2018 us=488410 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:44:50 2018 us=597910 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:44:50 2018 us=598748 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:45:00 2018 us=620927 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:45:00 2018 us=621224 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:45:00 2018 us=725033 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:45:00 2018 us=725864 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:45:10 2018 us=739266 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:45:10 2018 us=739324 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:45:10 2018 us=770503 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:45:10 2018 us=770691 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:45:15 2018 us=783505 Need IPv6 code in mroute_extract_addr_from_packet
+Mon Mar 26 21:45:19 2018 us=880310 pc3/100.18.7.30:42325 UDPv4 READ [85] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=84
+Mon Mar 26 21:45:19 2018 us=880457 pc3/100.18.7.30:42325 Need IPv6 code in mroute_extract_addr_from_packet
+Mon Mar 26 21:45:20 2018 us=952564 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:45:20 2018 us=952664 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:45:21 2018 us=139998 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:45:28 2018 us=71915 r1/100.18.2.1:49734 UDPv4 READ [85] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=84
+Mon Mar 26 21:45:28 2018 us=72036 r1/100.18.2.1:49734 Need IPv6 code in mroute_extract_addr_from_packet
+Mon Mar 26 21:45:29 2018 us=165927 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:45:30 2018 us=262389 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:45:31 2018 us=401149 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:45:38 2018 us=474826 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:45:39 2018 us=519448 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:45:40 2018 us=654409 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:45:41 2018 us=706135 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:45:48 2018 us=756980 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:45:49 2018 us=733355 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:45:50 2018 us=915939 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:45:52 2018 us=14361 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:45:59 2018 us=148204 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:45:59 2018 us=249082 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:46:00 2018 us=410763 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:46:02 2018 us=547608 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:46:09 2018 us=786904 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:46:09 2018 us=792611 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:46:10 2018 us=887211 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:46:13 2018 us=32245 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:46:19 2018 us=227570 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:46:19 2018 us=999574 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:46:21 2018 us=157221 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:46:23 2018 us=304209 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:46:29 2018 us=216152 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:46:29 2018 us=347077 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:46:31 2018 us=473788 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:46:33 2018 us=539879 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:46:39 2018 us=548229 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:46:39 2018 us=879890 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:46:41 2018 us=907540 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:46:43 2018 us=163326 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:46:49 2018 us=204787 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:46:50 2018 us=42336 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:46:51 2018 us=222858 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:46:53 2018 us=343714 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:46:59 2018 us=616753 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:47:00 2018 us=280514 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:47:01 2018 us=313039 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:47:03 2018 us=490967 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:47:09 2018 us=566511 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:47:10 2018 us=624843 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:47:11 2018 us=781553 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:47:13 2018 us=786267 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:47:19 2018 us=886010 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:47:20 2018 us=827339 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:47:21 2018 us=958848 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:47:23 2018 us=966233 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:47:24 2018 us=808013 pc3/100.18.7.30:42325 UDPv4 READ [85] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=84
+Mon Mar 26 21:47:24 2018 us=808180 pc3/100.18.7.30:42325 Need IPv6 code in mroute_extract_addr_from_packet
+Mon Mar 26 21:47:31 2018 us=52125 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:47:31 2018 us=52356 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:47:33 2018 us=204215 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:47:34 2018 us=210575 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:47:35 2018 us=48270 r1/100.18.2.1:49734 UDPv4 READ [85] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=84
+Mon Mar 26 21:47:35 2018 us=48429 r1/100.18.2.1:49734 Need IPv6 code in mroute_extract_addr_from_packet
+Mon Mar 26 21:47:41 2018 us=75697 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:47:43 2018 us=126290 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:47:43 2018 us=239519 Need IPv6 code in mroute_extract_addr_from_packet
+Mon Mar 26 21:47:44 2018 us=372525 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:47:45 2018 us=95878 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:47:51 2018 us=255779 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:47:53 2018 us=299273 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:47:54 2018 us=532731 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:47:55 2018 us=420891 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:48:01 2018 us=435585 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:48:03 2018 us=445161 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:48:04 2018 us=669329 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:48:05 2018 us=646393 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:48:11 2018 us=735601 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:48:13 2018 us=856718 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:48:14 2018 us=914590 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:48:15 2018 us=958804 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:48:22 2018 us=91565 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:48:23 2018 us=112986 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:48:24 2018 us=269241 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:48:25 2018 us=103785 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:48:32 2018 us=347163 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:48:33 2018 us=447423 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:48:34 2018 us=483482 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:48:35 2018 us=413951 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:48:42 2018 us=447778 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:48:43 2018 us=454833 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:48:44 2018 us=574919 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:48:45 2018 us=711941 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:48:52 2018 us=725480 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:48:53 2018 us=934349 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:48:55 2018 us=148221 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:48:55 2018 us=835878 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:49:03 2018 us=76212 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:49:03 2018 us=152733 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:49:05 2018 us=242210 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:49:05 2018 us=368995 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:49:13 2018 us=710766 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:49:13 2018 us=861569 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:49:15 2018 us=949260 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:49:16 2018 us=49557 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:49:23 2018 us=336416 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:49:23 2018 us=496973 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:49:25 2018 us=486472 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:49:26 2018 us=608391 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:49:33 2018 us=756232 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:49:33 2018 us=847032 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:49:35 2018 us=911836 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:49:36 2018 us=975931 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:49:43 2018 us=25777 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:49:43 2018 us=36293 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:49:45 2018 us=110190 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:49:46 2018 us=126450 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:49:53 2018 us=362670 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:49:53 2018 us=480364 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:49:55 2018 us=536849 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:49:56 2018 us=586795 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:50:03 2018 us=667599 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:50:03 2018 us=727053 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:50:05 2018 us=848170 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:50:06 2018 us=917515 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:50:13 2018 us=89757 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:50:13 2018 us=200500 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:50:15 2018 us=340637 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:50:16 2018 us=424100 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:50:23 2018 us=516762 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:50:23 2018 us=677338 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:50:25 2018 us=721918 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:50:26 2018 us=959518 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:50:33 2018 us=114745 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:50:33 2018 us=282588 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:50:35 2018 us=271728 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:50:36 2018 us=317473 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:50:43 2018 us=556641 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:50:43 2018 us=750072 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:50:45 2018 us=722505 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:50:46 2018 us=970499 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:50:53 2018 us=979851 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:50:54 2018 us=159587 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:50:56 2018 us=50895 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:50:56 2018 us=395981 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:51:03 2018 us=794296 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:51:04 2018 us=925058 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:51:06 2018 us=956674 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:51:07 2018 us=102282 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:51:13 2018 us=156987 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:51:14 2018 us=160677 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:51:16 2018 us=247412 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:51:17 2018 us=353005 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:51:23 2018 us=369690 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:51:24 2018 us=419489 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:51:26 2018 us=580114 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:51:27 2018 us=511958 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:51:33 2018 us=633935 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:51:34 2018 us=744715 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:51:36 2018 us=901255 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:51:38 2018 us=7725 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:51:43 2018 us=286978 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:51:44 2018 us=597869 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:51:46 2018 us=425676 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:51:48 2018 us=625952 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:51:48 2018 us=999996 pc3/100.18.7.30:42325 UDPv4 READ [85] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=84
+Mon Mar 26 21:51:49 2018 us=136 pc3/100.18.7.30:42325 Need IPv6 code in mroute_extract_addr_from_packet
+Mon Mar 26 21:51:54 2018 us=135578 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:51:55 2018 us=123591 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:51:58 2018 us=383914 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:51:58 2018 us=641447 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:52:05 2018 us=8771 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:52:05 2018 us=9057 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:52:05 2018 us=384298 r1/100.18.2.1:49734 UDPv4 READ [85] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=84
+Mon Mar 26 21:52:05 2018 us=384457 r1/100.18.2.1:49734 Need IPv6 code in mroute_extract_addr_from_packet
+Mon Mar 26 21:52:08 2018 us=176555 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:52:15 2018 us=451909 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:52:15 2018 us=453914 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:52:15 2018 us=564377 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:52:18 2018 us=589055 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:52:21 2018 us=767827 Need IPv6 code in mroute_extract_addr_from_packet
+Mon Mar 26 21:52:25 2018 us=844800 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:52:25 2018 us=845064 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:52:26 2018 us=47943 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:52:28 2018 us=199170 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:52:35 2018 us=412019 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:52:35 2018 us=413116 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:52:36 2018 us=427062 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:52:38 2018 us=448133 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:52:45 2018 us=613571 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:52:45 2018 us=613742 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:52:46 2018 us=665453 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:52:48 2018 us=872279 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:52:56 2018 us=16134 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:52:56 2018 us=17559 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:52:56 2018 us=18225 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:52:58 2018 us=268100 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:53:06 2018 us=60719 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:53:06 2018 us=60982 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:53:06 2018 us=146787 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:53:08 2018 us=249382 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:53:16 2018 us=452853 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:53:16 2018 us=453112 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:53:16 2018 us=606810 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:53:18 2018 us=659936 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:53:26 2018 us=786686 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:53:26 2018 us=789097 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:53:26 2018 us=963960 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:53:29 2018 us=174563 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:53:36 2018 us=183030 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:53:36 2018 us=294745 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:53:36 2018 us=295607 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:53:39 2018 us=218355 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:53:46 2018 us=371580 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:53:46 2018 us=427061 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:53:46 2018 us=427811 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:53:49 2018 us=501354 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:53:56 2018 us=620420 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:53:56 2018 us=621507 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:53:56 2018 us=816077 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:54:00 2018 us=78397 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:54:06 2018 us=317259 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:54:06 2018 us=801764 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:54:06 2018 us=802056 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:54:10 2018 us=553732 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:54:16 2018 us=240741 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:54:16 2018 us=240997 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:54:16 2018 us=478861 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:54:20 2018 us=548997 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:54:26 2018 us=708183 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:54:26 2018 us=708432 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:54:26 2018 us=870148 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:54:31 2018 us=32768 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:54:36 2018 us=126215 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:54:36 2018 us=127215 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:54:36 2018 us=340819 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:54:41 2018 us=490196 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:54:46 2018 us=449053 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:54:46 2018 us=449269 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:54:46 2018 us=592931 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:54:51 2018 us=679826 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:54:56 2018 us=760590 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:54:56 2018 us=897374 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:54:56 2018 us=900319 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:55:01 2018 us=916487 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:55:06 2018 us=937963 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:55:06 2018 us=938264 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:55:07 2018 us=101073 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:55:11 2018 us=364601 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:55:16 2018 us=458309 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:55:16 2018 us=459202 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:55:17 2018 us=649492 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:55:21 2018 us=774486 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:55:26 2018 us=903961 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:55:26 2018 us=906187 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:55:27 2018 us=977466 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:55:32 2018 us=186639 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:55:36 2018 us=225332 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:55:36 2018 us=226320 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:55:37 2018 us=384097 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:55:42 2018 us=536865 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:55:46 2018 us=480528 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:55:46 2018 us=480720 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:55:47 2018 us=536200 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:55:52 2018 us=577412 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:55:56 2018 us=618717 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:55:56 2018 us=618934 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:55:57 2018 us=749673 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:56:02 2018 us=787864 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:56:06 2018 us=819794 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:56:06 2018 us=821813 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:56:07 2018 us=874852 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:56:12 2018 us=991427 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:56:16 2018 us=239115 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:56:16 2018 us=239326 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:56:17 2018 us=376077 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:56:22 2018 us=503885 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:56:26 2018 us=385747 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:56:26 2018 us=385866 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:56:27 2018 us=591520 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:56:32 2018 us=667901 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:56:36 2018 us=483878 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:56:36 2018 us=484084 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:56:37 2018 us=548731 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:56:42 2018 us=574904 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:56:46 2018 us=761615 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:56:46 2018 us=763802 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:56:47 2018 us=821493 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:56:52 2018 us=868598 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:56:56 2018 us=884161 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:56:56 2018 us=885069 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:56:58 2018 us=81805 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:57:02 2018 us=328532 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:57:06 2018 us=456332 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:57:06 2018 us=457325 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:57:08 2018 us=525985 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:57:12 2018 us=700190 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:57:16 2018 us=772871 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:57:16 2018 us=773457 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:57:19 2018 us=100602 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:57:22 2018 us=248016 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:57:26 2018 us=329566 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:57:26 2018 us=330443 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:57:29 2018 us=388828 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:57:32 2018 us=607860 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:57:36 2018 us=416808 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:57:36 2018 us=417055 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:57:39 2018 us=505563 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:57:42 2018 us=664377 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:57:46 2018 us=707794 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:57:46 2018 us=708096 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:57:49 2018 us=871850 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:57:53 2018 us=7917 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:57:56 2018 us=156334 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:57:56 2018 us=156740 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:57:59 2018 us=219553 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:58:03 2018 us=516323 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:58:06 2018 us=199443 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:58:06 2018 us=199702 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:58:09 2018 us=387524 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:58:13 2018 us=635756 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:58:16 2018 us=485527 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:58:16 2018 us=485732 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:58:19 2018 us=615552 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:58:23 2018 us=839805 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:58:26 2018 us=535468 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:58:26 2018 us=535749 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:58:29 2018 us=574321 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:58:34 2018 us=42666 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:58:36 2018 us=65107 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:58:36 2018 us=65955 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:58:39 2018 us=76299 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:58:44 2018 us=85351 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:58:46 2018 us=197112 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:58:46 2018 us=198094 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:58:49 2018 us=608514 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:58:54 2018 us=661012 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:58:56 2018 us=221883 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:58:56 2018 us=222145 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:58:59 2018 us=266587 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:59:04 2018 us=485424 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:59:06 2018 us=495655 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:59:06 2018 us=495878 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:59:09 2018 us=655805 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:59:14 2018 us=897857 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:59:16 2018 us=860809 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:59:16 2018 us=861012 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:59:19 2018 us=975125 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:59:25 2018 us=200142 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:59:26 2018 us=236678 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:59:26 2018 us=237596 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:59:29 2018 us=263695 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:59:35 2018 us=776735 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:59:36 2018 us=312124 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:59:36 2018 us=312352 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:59:39 2018 us=359071 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:59:45 2018 us=513687 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:59:46 2018 us=358575 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:59:46 2018 us=358871 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:59:49 2018 us=400990 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:59:55 2018 us=580613 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:59:56 2018 us=492580 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:59:56 2018 us=492702 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 21:59:59 2018 us=646441 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:00:05 2018 us=813536 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:00:06 2018 us=596665 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:00:06 2018 us=596990 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:00:07 2018 us=655770 pc3/100.18.7.30:42325 UDPv4 READ [125] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=124
+Mon Mar 26 22:00:07 2018 us=655932 pc3/100.18.7.30:42325 MULTI: Learn: 10.18.1.10 -> r1/100.18.2.1:49734
+Mon Mar 26 22:00:07 2018 us=656058 r1/100.18.2.1:49734 UDPv4 WRITE [125] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=124
+Mon Mar 26 22:00:07 2018 us=658088 r1/100.18.2.1:49734 UDPv4 READ [125] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=124
+Mon Mar 26 22:00:07 2018 us=658147 pc3/100.18.7.30:42325 UDPv4 WRITE [125] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=124
+Mon Mar 26 22:00:08 2018 us=657382 pc3/100.18.7.30:42325 UDPv4 READ [125] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=124
+Mon Mar 26 22:00:08 2018 us=657589 r1/100.18.2.1:49734 UDPv4 WRITE [125] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=124
+Mon Mar 26 22:00:08 2018 us=661561 r1/100.18.2.1:49734 UDPv4 READ [125] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=124
+Mon Mar 26 22:00:08 2018 us=661750 pc3/100.18.7.30:42325 UDPv4 WRITE [125] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=124
+Mon Mar 26 22:00:09 2018 us=658696 pc3/100.18.7.30:42325 UDPv4 READ [125] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=124
+Mon Mar 26 22:00:09 2018 us=658908 r1/100.18.2.1:49734 UDPv4 WRITE [125] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=124
+Mon Mar 26 22:00:09 2018 us=660247 r1/100.18.2.1:49734 UDPv4 READ [125] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=124
+Mon Mar 26 22:00:09 2018 us=660445 pc3/100.18.7.30:42325 UDPv4 WRITE [125] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=124
+Mon Mar 26 22:00:16 2018 us=904136 pc3/100.18.7.30:42325 UDPv4 READ [85] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=84
+Mon Mar 26 22:00:16 2018 us=904284 pc3/100.18.7.30:42325 Need IPv6 code in mroute_extract_addr_from_packet
+Mon Mar 26 22:00:19 2018 us=271486 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:00:19 2018 us=271731 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:00:19 2018 us=448342 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:00:26 2018 us=609706 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:00:29 2018 us=712521 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:00:29 2018 us=712747 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:00:29 2018 us=732132 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:00:33 2018 us=287983 r1/100.18.2.1:49734 UDPv4 READ [85] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=84
+Mon Mar 26 22:00:33 2018 us=288166 r1/100.18.2.1:49734 Need IPv6 code in mroute_extract_addr_from_packet
+Mon Mar 26 22:00:36 2018 us=933729 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:00:39 2018 us=981431 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:00:40 2018 us=52186 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:00:43 2018 us=339421 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:00:46 2018 us=134547 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:00:49 2018 us=237468 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:00:50 2018 us=324031 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:00:53 2018 us=440975 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:00:56 2018 us=531827 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:00:59 2018 us=621258 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:01:00 2018 us=654076 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:01:03 2018 us=753338 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:01:06 2018 us=878967 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:01:09 2018 us=924411 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:01:11 2018 us=19316 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:01:13 2018 us=124636 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:01:16 2018 us=90765 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:01:19 2018 us=219822 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:01:21 2018 us=266475 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:01:23 2018 us=340197 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:01:26 2018 us=500769 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:01:29 2018 us=511626 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:01:31 2018 us=664857 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:01:33 2018 us=726982 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:01:36 2018 us=968770 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:01:38 2018 us=823609 Need IPv6 code in mroute_extract_addr_from_packet
+Mon Mar 26 22:01:39 2018 us=845210 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:01:41 2018 us=944229 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:01:43 2018 us=884419 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:01:46 2018 us=965715 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:01:49 2018 us=181968 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:01:51 2018 us=352847 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:01:53 2018 us=322494 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:01:56 2018 us=417066 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:01:59 2018 us=801128 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:02:01 2018 us=842447 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:02:03 2018 us=939551 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:02:06 2018 us=982664 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:02:10 2018 us=170163 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:02:11 2018 us=181058 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:02:13 2018 us=280339 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:02:16 2018 us=349154 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:02:20 2018 us=474994 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:02:21 2018 us=536785 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:02:23 2018 us=497017 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:02:26 2018 us=629920 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:02:30 2018 us=664497 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:02:31 2018 us=825244 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:02:33 2018 us=696974 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:02:37 2018 us=149100 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:02:40 2018 us=233958 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:02:41 2018 us=304738 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:02:43 2018 us=314263 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:02:47 2018 us=527519 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:02:50 2018 us=635991 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:02:51 2018 us=640287 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:02:53 2018 us=774445 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:02:57 2018 us=767772 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:03:00 2018 us=887530 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:03:01 2018 us=913857 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:03:03 2018 us=958737 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:03:07 2018 us=358790 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:03:10 2018 us=453571 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:03:11 2018 us=483884 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:03:13 2018 us=651921 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:03:17 2018 us=595751 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:03:20 2018 us=843619 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:03:21 2018 us=985329 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:03:23 2018 us=883881 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:03:28 2018 us=233514 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:03:30 2018 us=289204 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:03:31 2018 us=335961 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:03:33 2018 us=383446 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:03:38 2018 us=476575 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:03:40 2018 us=521702 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:03:41 2018 us=558461 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:03:43 2018 us=600734 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:03:48 2018 us=620071 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:03:50 2018 us=768778 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:03:51 2018 us=899602 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:03:53 2018 us=880542 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:03:59 2018 us=8975 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:04:00 2018 us=20359 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:04:01 2018 us=179123 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:04:03 2018 us=71782 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:04:09 2018 us=280371 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:04:10 2018 us=390185 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:04:11 2018 us=586569 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:04:13 2018 us=435247 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:04:19 2018 us=794134 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:04:20 2018 us=888730 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:04:21 2018 us=948434 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:04:24 2018 us=68682 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:04:30 2018 us=88130 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:04:30 2018 us=116565 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:04:31 2018 us=253462 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:04:34 2018 us=335793 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:04:40 2018 us=387297 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:04:40 2018 us=485825 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:04:41 2018 us=555679 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:04:44 2018 us=561906 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:04:50 2018 us=584169 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:04:50 2018 us=614863 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:04:51 2018 us=667303 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:04:54 2018 us=760008 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:05:00 2018 us=924400 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:05:01 2018 us=33114 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:05:01 2018 us=86859 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:05:04 2018 us=120577 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:05:10 2018 us=310535 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:05:11 2018 us=324549 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:05:11 2018 us=359232 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:05:14 2018 us=492871 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:05:20 2018 us=510101 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:05:21 2018 us=613539 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:05:21 2018 us=770305 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:05:24 2018 us=986375 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:05:30 2018 us=647974 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:05:31 2018 us=671666 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:05:31 2018 us=778254 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:05:35 2018 us=43775 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:05:40 2018 us=756994 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:05:41 2018 us=771437 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:05:41 2018 us=847222 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:05:45 2018 us=4961 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:05:50 2018 us=948490 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:05:52 2018 us=123054 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:05:52 2018 us=123303 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:05:55 2018 us=172198 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:06:00 2018 us=166241 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:06:02 2018 us=266074 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:06:02 2018 us=383723 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:06:05 2018 us=357430 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:06:10 2018 us=664800 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:06:12 2018 us=828130 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:06:13 2018 us=31701 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:06:15 2018 us=974052 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:06:20 2018 us=177638 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:06:22 2018 us=241027 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:06:23 2018 us=259725 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:06:25 2018 us=323065 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:06:30 2018 us=323014 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:06:32 2018 us=382439 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:06:33 2018 us=435564 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:06:35 2018 us=454663 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:06:40 2018 us=821119 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:06:42 2018 us=874536 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:06:43 2018 us=896929 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:06:46 2018 us=103945 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:06:50 2018 us=933366 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:06:53 2018 us=54907 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:06:53 2018 us=190511 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:06:56 2018 us=312599 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:07:00 2018 us=346915 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:07:03 2018 us=365288 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:07:03 2018 us=509962 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:07:06 2018 us=763686 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:07:10 2018 us=839894 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:07:13 2018 us=858362 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:07:13 2018 us=879785 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:07:16 2018 us=919837 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:07:21 2018 us=17750 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:07:23 2018 us=28235 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:07:23 2018 us=140678 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:07:26 2018 us=210838 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:07:31 2018 us=195273 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:07:33 2018 us=240000 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:07:33 2018 us=353869 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:07:36 2018 us=271454 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:07:41 2018 us=538453 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:07:43 2018 us=675232 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:07:43 2018 us=844098 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:07:46 2018 us=928288 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:07:51 2018 us=793707 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:07:53 2018 us=824293 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:07:53 2018 us=856850 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:07:57 2018 us=17754 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:08:02 2018 us=66086 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:08:03 2018 us=106788 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:08:03 2018 us=206428 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:08:07 2018 us=228547 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:08:12 2018 us=455280 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:08:13 2018 us=492271 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:08:13 2018 us=669043 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:08:17 2018 us=941527 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:08:22 2018 us=706307 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:08:23 2018 us=874073 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:08:24 2018 us=42909 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:08:27 2018 us=900798 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:08:32 2018 us=208980 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:08:33 2018 us=261515 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:08:34 2018 us=396266 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:08:37 2018 us=319811 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:08:42 2018 us=860874 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:08:44 2018 us=27529 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:08:44 2018 us=35284 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:08:47 2018 us=353516 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:08:52 2018 us=508199 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:08:54 2018 us=583819 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:08:54 2018 us=754629 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:08:58 2018 us=12409 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:09:02 2018 us=615841 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:09:04 2018 us=662253 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:09:04 2018 us=862188 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:09:08 2018 us=789483 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:09:13 2018 us=135492 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:09:14 2018 us=262896 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:09:14 2018 us=413513 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:09:18 2018 us=785581 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:09:23 2018 us=423967 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:09:24 2018 us=518327 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:09:24 2018 us=665112 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:09:28 2018 us=891091 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:09:33 2018 us=777793 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:09:34 2018 us=796313 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:09:34 2018 us=994973 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:09:38 2018 us=906447 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:09:43 2018 us=45211 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:09:44 2018 us=141908 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:09:44 2018 us=325569 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:09:48 2018 us=269867 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:09:53 2018 us=629319 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:09:54 2018 us=734021 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:09:54 2018 us=940661 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:09:59 2018 us=14314 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:10:03 2018 us=757013 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:10:04 2018 us=764496 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:10:04 2018 us=800050 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:10:09 2018 us=876804 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:10:13 2018 us=242193 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:10:14 2018 us=265633 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:10:14 2018 us=385089 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:10:19 2018 us=800178 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:10:23 2018 us=283886 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:10:24 2018 us=369264 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:10:24 2018 us=473943 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:10:29 2018 us=423023 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:10:33 2018 us=530337 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:10:34 2018 us=551822 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:10:34 2018 us=742650 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:10:39 2018 us=895826 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:10:43 2018 us=841915 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:10:44 2018 us=867534 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:10:45 2018 us=7418 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:10:49 2018 us=433440 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:10:53 2018 us=928912 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:10:55 2018 us=40408 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:10:55 2018 us=106125 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:10:59 2018 us=210230 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:11:03 2018 us=74634 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:11:05 2018 us=115122 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:11:05 2018 us=183516 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:11:09 2018 us=351150 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:11:13 2018 us=273294 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:11:15 2018 us=328816 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:11:15 2018 us=446597 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:11:19 2018 us=759298 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:11:23 2018 us=401304 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:11:25 2018 us=521744 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:11:25 2018 us=650336 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:11:29 2018 us=875881 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:11:33 2018 us=691895 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:11:35 2018 us=862747 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:11:36 2018 us=23408 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:11:40 2018 us=130002 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:11:43 2018 us=54608 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:11:45 2018 us=229164 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:11:46 2018 us=279795 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:11:50 2018 us=477849 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:11:53 2018 us=376689 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:11:55 2018 us=462100 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:11:56 2018 us=492518 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:12:00 2018 us=558106 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:12:03 2018 us=740408 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:12:06 2018 us=118533 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:12:06 2018 us=296127 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:12:10 2018 us=123562 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:12:13 2018 us=725318 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:12:16 2018 us=947452 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:12:17 2018 us=125207 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:12:20 2018 us=996882 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:12:23 2018 us=215474 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:12:26 2018 us=299121 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:12:27 2018 us=350898 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:12:30 2018 us=503940 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:12:33 2018 us=556507 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:12:36 2018 us=743520 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:12:37 2018 us=841148 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:12:40 2018 us=953926 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:12:43 2018 us=290655 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:12:46 2018 us=721060 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:12:47 2018 us=813776 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:12:50 2018 us=880706 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:12:53 2018 us=941933 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:12:56 2018 us=984262 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:12:58 2018 us=61952 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:13:01 2018 us=65360 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:13:03 2018 us=113469 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:13:06 2018 us=388255 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:13:08 2018 us=603413 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:13:11 2018 us=599663 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:13:13 2018 us=787409 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:13:16 2018 us=795079 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:13:18 2018 us=795826 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:13:21 2018 us=259809 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:13:23 2018 us=831316 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:13:27 2018 us=31547 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:13:28 2018 us=47255 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:13:31 2018 us=40112 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:13:33 2018 us=89356 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:13:37 2018 us=302330 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:13:38 2018 us=443866 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:13:41 2018 us=498221 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:13:43 2018 us=470321 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:13:47 2018 us=900275 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:13:49 2018 us=100928 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:13:51 2018 us=240292 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:13:53 2018 us=315822 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:13:57 2018 us=479990 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:13:59 2018 us=628813 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:14:01 2018 us=527966 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:14:03 2018 us=729847 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:14:07 2018 us=939559 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:14:10 2018 us=119095 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:14:12 2018 us=1645 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:14:13 2018 us=212768 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:14:17 2018 us=275489 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:14:20 2018 us=26804 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:14:21 2018 us=330584 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:14:23 2018 us=135648 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:14:27 2018 us=327387 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:14:30 2018 us=530282 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:14:31 2018 us=345806 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:14:33 2018 us=662476 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:14:37 2018 us=627834 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:14:40 2018 us=859730 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:14:41 2018 us=863060 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:14:44 2018 us=53989 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:14:47 2018 us=172271 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:14:50 2018 us=195830 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:14:51 2018 us=434167 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:14:54 2018 us=268895 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:14:57 2018 us=447471 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:15:00 2018 us=507495 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:15:01 2018 us=462820 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:15:04 2018 us=627845 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:15:07 2018 us=989034 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:15:11 2018 us=21764 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:15:12 2018 us=138384 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:15:14 2018 us=106381 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:15:17 2018 us=318539 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:15:21 2018 us=661289 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:15:22 2018 us=572215 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:15:24 2018 us=674268 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:15:27 2018 us=875783 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:15:31 2018 us=927782 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:15:33 2018 us=33878 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:15:34 2018 us=985365 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:15:37 2018 us=87774 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:15:41 2018 us=135055 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:15:43 2018 us=284958 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:15:44 2018 us=151959 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:15:47 2018 us=230077 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:15:51 2018 us=283582 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:15:53 2018 us=540144 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:15:54 2018 us=512753 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:15:57 2018 us=577679 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:16:01 2018 us=696337 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:16:03 2018 us=654908 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:16:04 2018 us=877501 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:16:07 2018 us=919942 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:16:11 2018 us=945583 pc3/100.18.7.30:42325 UDPv4 WRITE [53] to 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:16:14 2018 us=12647 r1/100.18.2.1:49734 UDPv4 READ [53] from 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:16:15 2018 us=147702 pc3/100.18.7.30:42325 UDPv4 READ [53] from 100.18.7.30:42325: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:16:17 2018 us=154322 r1/100.18.2.1:49734 UDPv4 WRITE [53] to 100.18.2.1:49734: P_DATA_V1 kid=0 DATA len=52
+Mon Mar 26 22:16:20 2018 us=976912 event_wait : Interrupted system call (code=4)
+Mon Mar 26 22:16:20 2018 us=977915 TCP/UDP: Closing socket
+Mon Mar 26 22:16:20 2018 us=978013 Closing TUN/TAP interface
+Mon Mar 26 22:16:20 2018 us=978076 /sbin/ifconfig tun0 0.0.0.0
+Mon Mar 26 22:16:21 2018 us=44 SIGINT[hard,] received, process exiting
